@@ -1,15 +1,16 @@
 ---
-title: "Donazioni" #
-lang: it
-permalink: /it_IT/donations.html
+title: "Donations" #
+lang: en
+permalink: /donations.html
 layout: single-no-ads
 ---
 
-## Se hai gradito questa guida, accetto donazioni.
+## If you appreciate this guide, I accept donations.
 {: .text-center}
 {: .notice--success}
 
-[![Bitcoin]({{ base_path }}/images/donate_64.png)](https://www.coinbase.com/plailect){: .align-center}
+![Bitcoin]({{ base_path }}/images/donate_64.png){: .align-center}
+1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety
 {: .text-center}
 
 [![Paypal]({{ base_path }}/images/paypal.jpg)](https://www.paypal.me/plailect/15){: .align-center}
