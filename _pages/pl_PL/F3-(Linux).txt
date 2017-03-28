@@ -1,31 +1,31 @@
 ---
 title: "F3 (Linux)" #
-lang: pl
-permalink: /pl_PL/f3-(linux).html
+lang: en
+permalink: /f3-(linux).html
 ---
 
-Ta strona przeprowadzi ci przez proces sprawdzania twojej karty SD pod kątem błędów, przy użyciu programu F3.
+This page will walk you through the process of checking your SD card for errors using F3.
 {: .notice}
 
-W zależności od wielkości karty SD i szybkości komputera, proces ten może potrwać nawet kilka godzin!
+Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
 {: .notice--info}
 
-Ta strona dotyczy tylko użytkowników systemu Linux. Jeśli nie posiadasz Linuxa, sprawdź strony [H2testw (windows)](h2testw-(windows)) lub [F3X (mac)](f3x-(mac)).
+This page is for Linux users only. If you are not on Linux, check out the [H2testw (windows)](h2testw-(windows)) or [F3X (mac)](f3x-(mac)) pages.
 {: .notice--info}
 
-#### Czego potrzebujesz
+#### What you need
 
-* Najnowszej wersji programu [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
+* The latest version of [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
-#### Instrukcje
+#### Instructions
 
-1. Rozpakuj plik `.zip` z F3
-2. `cd` do katalogu f3
-3. Uruchom `make` aby skompilować F3
-4. Włóż kartę SD do komputera
-5. Zamontuj kartę SD
-6. Uruchom `./f3write <punkt montowania karty SD>`
-7. Poczekaj na zakończenie procesu. Poniżej przedstawiono przykład prawidłowego wyjścia.
+1. Unzip the f3 `.zip` file
+1. `cd` into the f3 directory
+1. Run `make` to compile F3
+1. Insert your SD card into your computer
+1. Mount your SD card
+1. Run `./f3write <your sd card mount point>`
+1. Wait until the process is complete. See below for an example output.
 
 		$ ./f3write /media/michel/6135-3363/
 		Free space: 29.71 GB
@@ -35,8 +35,8 @@ Ta strona dotyczy tylko użytkowników systemu Linux. Jeśli nie posiadasz Linux
 		Free space: 0.00 Byte
 		Average Writing speed: 4.90 MB/s
 
-8. Uruchom `./f3read <punkt montowania karty SD>`
-9. Poczekaj na zakończenie procesu. Poniżej przedstawiono przykład prawidłowego wyjścia.
+1. Run `./f3read <your sd card mount point>`
+1. Wait until the process is complete. See below for an example output.
 
 		$ ./f3read /media/michel/6135-3363/
 		                  SECTORS      ok/corrupted/changed/overwritten
@@ -53,11 +53,11 @@ Ta strona dotyczy tylko użytkowników systemu Linux. Jeśli nie posiadasz Linux
 
 ___
 
-Jeśli test pokazuje wynik `Data LOST: 0.00 Byte (0 sectors)`, karta SD nie posiada błędów i możesz usunąć wszystkie pliki '.h2w' na karcie SD
+If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is good and you can delete all `.h2w` files on your SD card
 {: .notice--success}
 
-Jeśli test pokazuje inne wyniki, karta SD może być uszkodzona i może być konieczna jej wymiana!
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 {: .notice--danger}
 
-Powróć do [Rozpocznij](get-started)
+Return to [Get Started](get-started)
 {: .notice--primary}
