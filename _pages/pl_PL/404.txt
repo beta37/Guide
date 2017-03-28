@@ -1,11 +1,11 @@
 ---
-title: "Nie odnaleziono strony" #
-lang: pl
-permalink: /pl_PL/404.html
+title: "Page Not Found" #
+lang: en
+permalink: /404.html
 layout: single-no-ads
-excerpt: "Nie odnaleziono strony. Twoje litery są w innej książce." #
+excerpt: "Page not found. Your pixels are in another canvas." #
 sitemap: false
 ---
 
-### Przepraszamy, ale strona którą próbujesz wyświetlić nie istnieje.
+### Sorry, but the page you were trying to view does not exist.
 {: .text-center}
