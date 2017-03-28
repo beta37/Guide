@@ -1,15 +1,16 @@
 ---
-title: "기부" #
-lang: ko
-permalink: /ko_KR/donations.html
+title: "Donations" #
+lang: en
+permalink: /donations.html
 layout: single-no-ads
 ---
 
-## 가이드가 도움이 되었기를 바라며 감사의 뜻으로 기부를 해주신다면 고맙게 받겠습니다.
+## If you appreciate this guide, I accept donations.
 {: .text-center}
 {: .notice--success}
 
-[![Bitcoin]({{ base_path }}/images/donate_64.png)](https://www.coinbase.com/plailect){: .align-center}
+![Bitcoin]({{ base_path }}/images/donate_64.png){: .align-center}
+1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety
 {: .text-center}
 
 [![Paypal]({{ base_path }}/images/paypal.jpg)](https://www.paypal.me/plailect/15){: .align-center}
