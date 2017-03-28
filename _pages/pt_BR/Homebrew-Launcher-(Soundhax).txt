@@ -1,36 +1,39 @@
 ---
 title: "Homebrew Launcher (Soundhax)" #
-lang: pt
-permalink: /pt_BR/homebrew-launcher-(soundhax).html
+lang: en
+permalink: /homebrew-launcher-(soundhax).html
 ---
 
-O Homebrew Launcher possui vários pontos de entrada diferentes, ou métodos de execução.
+The Homebrew Launcher has many different entrypoints, or methods of launching.
 {: .notice}
 
-Soundhax é compatível com as versões de 9.0.0 a 11.2.0 nas regiões EUA, EUR, JPN, KOR.
+Soundhax is compatible with versions 9.0.0 through 11.2.0 in the EUR, JPN, KOR, and USA regions.
 {: .notice--info}
 
-#### O que você precisa
+#### What you need
 
-+ O [Kit de Iniciante de Homebrew](http://smealum.github.io/ninjhax2/starter.zip)
-+ A versão mais recente do [Soundhax](http://soundhax.com/) *(para o seu dispositivo e região)*
-+ O [payload otherapp](https://smealum.github.io/3ds/#otherapp) *(para sua versão e região)*
++ The Homebrew [Starter Kit](http://smealum.github.io/ninjhax2/starter.zip)
++ The latest release of [Soundhax](http://soundhax.com/) *(for your device and region)*
++ The [otherapp payload](https://smealum.github.io/3ds/#otherapp) *(for your version and region)*
 
-#### Instruções
+#### Instructions
 
-1. Copie _o conteúdo_ da pasta `starter` no `starter.zip` para a raiz do seu cartão SD
-2. Copie o Soundhax `.m4a` para a raiz do seu cartão SD
-3. Copie o payload otherapp para a raiz do cartão SD e renomeie-o para `otherapp.bin`
-4. Reinsira seu cartão SD no seu 3DS
-5. Abra o Som Nintendo 3DS
-6. Passe por todas os palpites dos papagaios, depois feche o aplicativo normalmente e abra-o novamente
-  + Abrir o Soundhax imediatamente faria com que estes palpites aparecessem toda vez que o Som Nintendo 3DS fosse aberto até que isto fosse feito
-7. Vá até `/SDCARD`, depois toque "<3 nedwill 2016"
-  + Isso pode levar várias tentativas
-  + Se o console congelar, force-o a desligar segurando o botão Power, e então tente novamente
-8. Seu console deve carregar o Homebrew Launcher
+1. Power off your device
+1. Insert your SD card into your computer
+1. Copy _the contents of_ the `starter` folder in `starter.zip` to the root of your SD card
+1. Copy the Soundhax `.m4a` to the root of your SD card
+1. Copy the otherapp payload to the root of your SD card and rename it to `otherapp.bin`
+1. Reinsert your SD card into your device
+1. Power on your device
+1. Launch Nintendo 3DS Sound
+1. Go through all of the bird tips, then close the app normally and relaunch it
+  + Launching Soundhax immediately would cause these tips to appear on every launch of the Nintendo 3DS Sound until this is done
+1. Go to `/SDCARD`, then play "<3 nedwill 2016"
+  + This may take many tries
+  + If it freezes, just force the console to power off by holding the power button, then try again
+1. Your device should load the Homebrew Launcher
 
 ___
 
-Continuar para [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
+Continue to [SafeCTRTransfer (Homebrew Launcher)](safectrtransfer-(homebrew-launcher))
 {: .notice--primary}
