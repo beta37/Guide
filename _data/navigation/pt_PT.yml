@@ -1,11 +1,11 @@
 ---
 main:
   - 
-    title: Guia
+    title: Guide
   - 
-    title: Perguntas Frequentes
+    title: FAQ
   - 
-    title: Resolução de problemas
+    title: Troubleshooting
   - 
     title: Donations
   - 
@@ -29,4 +29,4 @@ footer:
   - 
     title: Site Navigation
   - 
-    title: Porquê anúncios?
+    title: Why Ads?
