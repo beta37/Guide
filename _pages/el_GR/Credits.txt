@@ -1,16 +1,16 @@
 ---
-title: "Ευχαριστίες" #
-lang: el
-permalink: /el_GR/credits.html
+title: "Credits" #
+lang: en
+permalink: /credits.html
 ---
 
-**Ευχαριστώ ιδιαίτερα όλο το [#Cakey στο Freenode](http://webchat.freenode.net/?channels=%23Cakey) που ήταν υπέροχοι!**
+**Special thanks to all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome!**
 {: .notice--primary}
 
-**Ευχαριστώ ιδιαίτερα όλους τους [μεταφραστές](https://translate.3ds.guide/) που ήταν υπέροχοι!**
+**Special thanks to all of [the translators](https://translate.3ds.guide/) for being awesome!**
 {: .notice--primary}
 
-Εάν σας ξέχασα, επικοινωνήστε μαζί μου ώστε να προσθέσω το όνομά σας.
+If I forgot you here, contact me and I'll add your name.
 {: .notice}
 
 + AHP_Person
@@ -23,7 +23,7 @@ permalink: /el_GR/credits.html
 + Cartman123
 + Cell9
 + coder65535
-+ Cruel
++ Cruel`
 + d0k3
 + dank101
 + dark_samus
