@@ -1,33 +1,32 @@
 ---
-title: "Kartenupdate" #
-lang: de
-permalink: /de_DE/cart-update.html
+title: "Cart Update" #
+lang: en
+permalink: /cart-update.html
 ---
 
-Alle Spielmodule erhalten eine Kopie der System-Firmware, die die Software benötigt, um abgespielt zu werden. Dies ermöglicht jedem Spieler mit einem Gerät einer niedrigeren Firmware, der das betreffende Spiel benutzt, auf die vorinstallierte Betriebssoftware zu aktualisieren (sogar ohne Internetverbindung).
+All game carts contain a copy of the required system version to play it, allowing anyone on a lower version to use the cartridge to update to that version (even without an internet connection).
 {: .notice--info}
 
-Kartenupdates aktualisieren nur Kernfunktionen, wie zum Beispiel die Systemeinstellungen, das Home-Menü, etc. Nintendo 3DS Sound und Netzwerkfunktionen, wie den Internetbrowser, den eShop, die StreetPass Mii Plaza oder der System-Transfer werden nicht aktualisiert.
+Cart Updates will only deliver updates to core features, such as the System Settings, Home Menu, etc. Cart Updates will not deliver updates to Nintendo 3DS Sound and Network features, such as System Transfer, Internet Browser, StreetPass Mii Plaza or eShop.
 {: .notice--info}
 
-Deswegen, wird nach einem Kartenupdate einer Version <9.0.0, [Soundhax](homebrew-launcher-(soundhax)) nicht mehr funktionieren! Du benötigst eine [alternative Methode](homebrew-launcher-(alternatives)), um dir Zugang zum Homebrew-launcher zu schaffen!
+This means that a cart update from a version <9.0.0 will break [Soundhax](homebrew-launcher-(soundhax))! You will need an [alternate method](homebrew-launcher-(alternatives)) of entering the Homebrew Launcher!
 {: .notice--warning}
 
-
-Das bedeutet auch, dass ein Kartenupdate KEINEN Browser installiert, sollte nicht bereits einer vorhanden sein. Dies wird **nur** die aktuelle System-Version aktualisieren *(Beispiel: 2.1.0-0 -> 6.0.0-0)*. Die letzte Ziffer *(die -0)* ändert sich **nicht**.
+This also means that a cart update will NOT install a browser if you do not already have one. This will **only** update the actual system version *(for example, 2.1.0-0 -> 6.0.0-0)*. The last number *(the -0)* will **not** change.
 {: .notice--warning}
 
-**Das Aktualisieren mithilfe eines Spielemoduls auf die Systemversion 9.9.0 oder höher entfernt deinen Browser!**
+**Updating with a game cart containing the version 9.9.0 or above will remove your browser!**
 {: .notice--danger}
 
-### Was du brauchst
+#### What you need
 
-* Ein Spielmodul, das [die benötigte System-Version](http://www.3dsdb.com/) enthält, die in der Liste aufgeführt ist
+* A game cart that [contains the version](http://www.3dsdb.com/) specified in the chart
 
-#### Anleitung
+#### Instructions
 
-1. Starte deinen Nintendo 3DS in den Wiederherstellungsmodus, indem du (L) + (R) + (A) + (Steuerkreuz oben) drückst und gleichzeitig das System einschaltest
-2. Lehne das Update ab und starte neu
-3. Stecke das Spiel in deine Konsole
-4. Versuche, das Spiel zu starten
-5. Aktualisiere, wenn du dazu aufgefordert wirst
+1. Boot your device into recovery mode by holding L+R+A+UP while powering on
+1. Decline the update and reboot
+1. Put the game in the system
+1. Attempt to launch the game
+1. Update when prompted
