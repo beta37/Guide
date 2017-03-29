@@ -1,17 +1,16 @@
 ---
-title: "Créditos" #
-lang: es
-permalink: /es_ES/credits.html
+title: "Credits" #
+lang: en
+permalink: /credits.html
 ---
 
-**¡Un agradecimiento especial a todos los de [#Cakey en Freenode](http://webchat.freenode.net/?channels=%23Cakey) por ser 
-asombrosos!**
+**Special thanks to all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome!**
 {: .notice--primary}
 
-**¡Agradecimientos a todos [los traductores](https://translate.3ds.guide/) por ser asombrosos!**
+**Special thanks to all of [the translators](https://translate.3ds.guide/) for being awesome!**
 {: .notice--primary}
 
-Si te olvidé, puedes contactarme para añadir tu nombre.
+If I forgot you here, contact me and I'll add your name.
 {: .notice}
 
 + AHP_Person
