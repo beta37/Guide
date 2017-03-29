@@ -1,16 +1,16 @@
 ---
-title: "Remerciements" #
-lang: fr
-permalink: /fr_FR/credits.html
+title: "Credits" #
+lang: en
+permalink: /credits.html
 ---
 
-**Remerciements spéciaux à toutes les personnes du salon [#Cakey sur Freenode](http://webchat.freenode.net/?channels=%23Cakey), vous êtes géniaux !**
+**Special thanks to all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome!**
 {: .notice--primary}
 
-**Un grand merci à tous [les traducteurs](https://translate.3ds.guide/), vous êtes géniaux !**
+**Special thanks to all of [the translators](https://translate.3ds.guide/) for being awesome!**
 {: .notice--primary}
 
-Si je vous ai oublié, contactez-moi et j'ajouterai votre nom.
+If I forgot you here, contact me and I'll add your name.
 {: .notice}
 
 + AHP_Person
@@ -43,7 +43,7 @@ Si je vous ai oublié, contactez-moi et j'ajouterai votre nom.
 + jkcgs
 + LordBass
 + MassExplosion123
-+ Mid-kid
++ mid-kid
 + MrNbaYoh
 + Mrrraou
 + Night_Fallen_Wolf
