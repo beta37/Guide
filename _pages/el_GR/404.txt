@@ -1,11 +1,11 @@
 ---
-title: "Η Σελίδα Δεν Βρέθηκε" #
-lang: el
-permalink: /el_GR/404.html
+title: "Page Not Found" #
+lang: en
+permalink: /404.html
 layout: single-no-ads
-excerpt: "Η σελίδα δεν βρέθηκε. Τα pixel σας βρίσκονται σε άλλον καμβά." #
+excerpt: "Page not found. Your pixels are in another canvas." #
 sitemap: false
 ---
 
-### Συγνώμη, αλλά η σελίδα που προσπαθείτε να προβάλετε δεν υπάρχει.
+### Sorry, but the page you were trying to view does not exist.
 {: .text-center}
