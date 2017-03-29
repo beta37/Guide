@@ -1,179 +1,196 @@
 ---
-title: "Problèmes et Dépannage" #
-lang: fr
-permalink: /fr_FR/troubleshooting.html
+title: "Troubleshooting" #
+lang: en
+permalink: /troubleshooting.html
 ---
 
-Si vous ne parvenez pas à démarrer votre 3DS, recherchez la section qui vous concerne et suivez les instructions correspondantes. Une fois qu'une solution fonctionne pour vous, vous pouvez passer à la suite du guide principal
-(Cette section est plutôt longue, essayez de rechercher votre problème avec Ctrl+F)
+If you are unable to boot your device, please look for the section relevant to you, and follow the instructions. Once a solution works for you, you can proceed on with the main guide
+(The section is fairly long, try using Ctrl+F to search for your issue.)
 {: .notice--primary}
 
-**Si vous n'arrivez toujours pas à résoudre votre problème et avez besoin d'aide, copiez le contenu de tous les fichiers .log pertinents présents à la racine de votre carte SD dans un [Gist](https://gist.github.com/), puis venez demander de l'aide avec une description détaillée de votre problème et de ce que vous avez essayé.**
+**If you still cannot solve your issue and need to reach out for help, please paste the contents of all relevant .log files from the root of your SD card into a [Gist](https://gist.github.com/), then come for help prepared with a detailed description of your problem and what you've tried.**
 {: .notice--info}
 
-## <a name="twl_broken" /> La fonction DSi / DS ne fonctionne plus après avoir fini le guide
+To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on this page, you will need a torrent client like [Deluge](http://dev.deluge-torrent.org/wiki/Download)
+{: .notice--info}
 
-#### Ce dont vous aurez besoin
+## <a name="twl_broken" />DSi / DS functionality is broken after completing the guide
 
-* Le TWL_FIRM `.cia` pour votre console
-    + <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client torrent pour le télécharger."></i> - [`New_3DS TWL_FIRM - v9936.cia`](magnet:?xt=urn:btih:eab8558c97b18b1f329a2bfcc3c899b84c082a27&dn=New%5F3DS%20TWL%5FFIRM%20-%20v9936.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-    + <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client torrent pour le télécharger."></i> - [`Old_3DS TWL_FIRM - v8817.cia`](magnet:?xt=urn:btih:17511eadb6e6f3ff22d04f90644e37bd2d96ca43&dn=Old%5F3DS%20TWL%5FFIRM%20-%20v8817.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-* <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client torrent pour le télécharger."></i> - [`TWL Version Data - v0.cia`](magnet:?xt=urn:btih:4a106681407fede5de95cc8bda635432481f6b5d&dn=TWL%20Version%20Data%20-%20v0.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-* <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client torrent pour le télécharger."></i> - [`DS Internet - v2048.cia`](magnet:?xt=urn:btih:2b9df8496922f2546dfb0b01220068ce53c19d3d&dn=DS%20Internet%20-%20v2048.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-* <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client torrent pour le télécharger."></i> - [`DS Download Play - v1024.cia`](magnet:?xt=urn:btih:b581d3c5d98f5e621fddfc1ce5704bb45bf05a8c&dn=DS%20Download%20Play%20-%20v1024.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
-* <i class="fa fa-magnet" aria-hidden="true" title="Ceci est un lien magnet. Utilisez un client torrent pour le télécharger."></i> - [`Nintendo DS Cart Whitelist - v11264.cia`](magnet:?xt=urn:btih:7b90d506ad032a581a00035616eaa17a68c48eff&dn=Nintendo%20DS%20Cart%20Whitelist%20-%20v11264.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+#### What you need
 
-### Instructions
+* The TWL_FIRM `.cia` for your device
+    + <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [`New_3DS TWL_FIRM - v9936.cia`](magnet:?xt=urn:btih:eab8558c97b18b1f329a2bfcc3c899b84c082a27&dn=New%5F3DS%20TWL%5FFIRM%20-%20v9936.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+    + <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [`Old_3DS TWL_FIRM - v8817.cia`](magnet:?xt=urn:btih:17511eadb6e6f3ff22d04f90644e37bd2d96ca43&dn=Old%5F3DS%20TWL%5FFIRM%20-%20v8817.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [`TWL Version Data - v0.cia`](magnet:?xt=urn:btih:4a106681407fede5de95cc8bda635432481f6b5d&dn=TWL%20Version%20Data%20-%20v0.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [`DS Internet - v2048.cia`](magnet:?xt=urn:btih:2b9df8496922f2546dfb0b01220068ce53c19d3d&dn=DS%20Internet%20-%20v2048.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [`DS Download Play - v1024.cia`](magnet:?xt=urn:btih:b581d3c5d98f5e621fddfc1ce5704bb45bf05a8c&dn=DS%20Download%20Play%20-%20v1024.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
+* <i class="fa fa-magnet" aria-hidden="true" title="This is a magnet link. Use a torrent client to download the file."></i> - [`Nintendo DS Cart Whitelist - v11264.cia`](magnet:?xt=urn:btih:7b90d506ad032a581a00035616eaa17a68c48eff&dn=Nintendo%20DS%20Cart%20Whitelist%20-%20v11264.cia&tr=udp%3A%2F%2Ftracker.coppersurfer.tk%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=http%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fzer0day.ch%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.leechers-paradise.org%3A6969%2Fannounce&tr=http%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fexplodie.org%3A6969%2Fannounce&tr=udp%3A%2F%2F9.rarbg.com%3A2710%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=http%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker.aletorrenty.pl%3A2710%2Fannounce&tr=http%3A%2F%2Ftracker1.wasabii.com.tw%3A6969%2Fannounce&tr=http%3A%2F%2Ftracker.baravik.org%3A6970%2Fannounce&tr=http%3A%2F%2Ftracker.tfile.me%2Fannounce&tr=udp%3A%2F%2Ftorrent.gresille.org%3A80%2Fannounce&tr=http%3A%2F%2Ftorrent.gresille.org%2Fannounce&tr=udp%3A%2F%2Ftracker.yoshi210.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.tiny-vps.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.filetracker.pl%3A8089%2Fannounce)
 
-##### Section I - Préparation
+#### Instructions
 
-1. Créez un dossier nommé "files9" à la racine de votre carte SD si celui ci n'existe pas
-2. Copiez `TWL Version Data - v0.cia` dans le dossier `/cias/` sur votre carte SD
-3. Copiez `DS Download Play - v1024.cia` dans le dossier `/cias/` sur votre carte SD
-4. Copiez `DS Internet - v2048.cia` dans le dossier `/cias/` sur votre carte SD
-5. Copiez `Nintendo DS Cart Whitelist - v11264.cia` dans le dossier `/cias/` sur votre carte SD
-6. Copiez soit `New_3DS TWL_FIRM - v9936.cia`  soit `Old_3DS TWL_FIRM - v8817.cia` dans le dossier `/cias/` sur votre carte SD
+##### Section I - Prep Work
 
-### Section II - Installation des applications
+1. Create a folder named `cias` on the root of your SD card if it does not already exist
+1. Copy `TWL Version Data - v0.cia` to the `/cias/` folder on your SD card
+1. Copy `DS Download Play - v1024.cia` to the `/cias/` folder on your SD card
+1. Copy `DS Internet - v2048.cia` to the `/cias/` folder on your SD card
+1. Copy `Nintendo DS Cart Whitelist - v11264.cia` to the `/cias/` folder on your SD card
+1. Copy either `New_3DS TWL_FIRM - v9936.cia`  or `Old_3DS TWL_FIRM - v8817.cia` to the `/cias/` folder on your SD card
 
-1. Ouvrez FBI
-2. Sélectionnez "SD"
-3. Sélectionnez "cias"
-4. Sélectionnez "\<current directory>"
-5. Sélectionnez "Install and delete all CIAs"
-6. Fermez FBI en appuyant sur le bouton (Home)
+##### Section II - Installing titles
 
-## <a name="rm_nnid" />Supprimer un NNID sans formater la console
+1. Launch FBI
+1. Navigate to `SD` -> `cias`
+1. Select "\<current directory>"
+1. Select "Install and delete all CIAs"
+1. Press (Home) to exit FBI
 
-#### Ce dont vous aurez besoin
+## <a name="rm_nnid" />Removing an NNID without formatting your device
 
-* La dernière version de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+#### What you need
 
-### Instructions
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
 
-1. Copiez le fichier `GodMode9.bin` se trouvant dans GodMode9`.zip` vers le dossier `/luma/payloads/` de votre carte SD et renommez-y `GodMode9.bin` en `up_GodMode9.bin`
-2. Maintenez (Haut) enfoncé en redémarrant pour lancer GodMode9 via arm9loaderhax
-3. Séléctionnez `SYSNAND CTRNAND` -> `data` -> (32 Character ID) -> `sysdata` -> `00010038`
-4. Maintenez (R) enfoncé et appuyez sur (X) en sélectionnant le fichier `00000000` pour le renommer
-5. Appuyez une fois sur (Haut) pour le renommer en `10000000`
-6. Appuyez sur (A) pour enregistrer les modifications
-7. Appuyez sur (A) pour accéder à l'écriture sur SysNAND, puis effectuez la combinaison de touches demandée
-8. Retournez au menu principal
-9. Appuyez sur (Start) pour redémarrer
+#### Instructions
 
-## <a name="gw_fbi" />Je ne peux pas injecter dans Santé et Sécurité sur une console downgradée via Gateway
-Cela vient de l'implémentation bancale faite par Gateway pour downgrader et qui laisse deux version de chaque application sur la console. L'une d'entre elle n'est pas utilisée, mais cela perturbe Decrypt9 qui du coup fait injecte dans la mauvaise.
+1. Copy `GodMode9.bin` from the GodMode9 `.zip` to the `/luma/payloads/` folder on your SD card and rename `GodMode9.bin` in `/luma/payloads/` to `up_GodMode9.bin`
+1. Boot holding (Up) to reboot into arm9loaderhax GodMode9
+1. Navigate to `SYSNAND CTRNAND` -> `data` -> (32 Character ID) -> `sysdata` -> `00010038`
+1. Hold down the (R) trigger, then press (X) on `00000000` to rename this file
+1. Press (Up) once to change the name to `10000000`
+1. Press (A) to save changes
+1. Press (A) to unlock SysNAND writing, then input the key combo given
+1. Navigate back to the Main Menu
+1. Press (Start) to reboot your device
 
-#### Ce dont vous aurez besoin
+## <a name="gw_fbi" />Cannot inject H&S on Gateway downgraded device
+This is caused by Gateway implementing a very shoddy downgrade method, which leaves two versions of each app on the system. One of them is unused, but it confuses the H&S inject system, causing it to inject into the wrong one.
 
-* La dernière version de [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
-
-### Instructions
-
-1. Copiez le fichier `GodMode9.bin` se trouvant dans GodMode9`.zip` vers le dossier `/luma/payloads/` de votre carte SD et renommez-y `GodMode9.bin` en `up_GodMode9.bin`
-2. Réinsérez votre carte SD dans votre 3DS
-3. Ouvrez Godmode9 depuis arm9loaderhax en maintenant (Haut) au démarrage     
-4. Sélectionnez `SYSNAND CTRNAND` -> `title` -> `00040010`
-5. Sélectionnez le dossier correspondant à votre console et votre région:
+1. Launch GodMode9 from arm9loaderhax by holding (Start) during boot     
+1. Navigate to `SYSNAND CTRNAND` -> `title` -> `00040010`
+1. Navigate to the folder for your device and region:
   + **Old 3DS EUR**: `00022300` -> `content`
   + **Old 3DS JPN**: `00020300` -> `content`
   + **Old 3DS USA**: `00021300` -> `content`
   + **New 3DS EUR**: `20022300` -> `content`
   + **New 3DS JPN**: `20020300` -> `content`
   + **New 3DS USA**: `20021300` -> `content`
-6. Notez qu'il y a deux fois les fichiers app et tmd, une dont les extensions de fichier sont en majuscules (`.TMD` and `.APP`), et une dont les extensions de fichier sont en minuscules (`.tmd` and `.app`)
-7. En maintenant le bouton (R), appuyez sur (Y) pour créer un nouveau dossier
-8. Appuyez sur (A) pour confirmer le nom `newdir` (Le nom n'a pas d'importance)
-9. Appuyez sur (A) pour accéder à l'écriture sur SysNAND, puis effectuez la combinaison de touches demandée
-10. Appuyez sur le bouton (L) sur chacun des fichiers dont l'extension de fichier est en majucules (`.TMD` and `.APP`) pour les marquer
-11. Appuyez sur (Y) pour les copier
-12. Sélectionnez `newdir`
-13. Appuyez sur (Y) pour les coller
-14. Sélectionnez "Move path(s)"
-15. Les fichiers dont les extensions sont en majuscules seront déplacés vers le dossier `newdir`
-16. Appuyez sur (Start) pour redémarrer
-17. Retournez à [Installation d'arm9loaderhax](installing-arm9loaderhax) et réessayez d'injecter FBI
-18. Si cela ne fonctionne toujours pas, replacez les fichiers à l'extension en majuscules dans le dossier `content`, puis déplacez les fichiers à l'extension en minuscules dans le dossier `newdir`, puis retournez à [Installation d'arm9loaderhax](installing-arm9loaderhax) et réessayez d'injecter FBI
+1. Notice that there are two sets of app and tmd files, one set with uppercase extensions (`.TMD` and `.APP`), and one set with lowercase extensions (`.tmd` and `.app`)
+1. While holding the (R) trigger, press (Y) to create a new directory
+1. Press (A) to confirm the name `newdir` (it does not matter what the folder is called)
+1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
+1. Press the (L) trigger on each of the uppercase extension files (`.TMD` and `.APP`) to mark them
+1. Press (Y) to copy the files
+1. Navigate to `newdir`
+1. Press (Y) to paste the files
+1. Select "Move path(s)"
+1. The uppercase extension files will have been moved to the `newdir` directory
+1. Press (Start) to reboot your device
+1. Return to [Installing arm9loaderhax](installing-arm9loaderhax) and retry the FBI injection
+1. If this still doesn't work, move the uppercase extension files back to the `content` folder, then move the lowercase extension files to the `newdir` folder, then return to [Installing arm9loaderhax](installing-arm9loaderhax) and retry the FBI injection
 
-## <a name="ts_browser" />Un exploit basé sur le navigateur web ne fonctionne pas
-Les exploits basé sur le navigateur (tel que browserhax ou 2xrsa) sont parfois instable et plantent fréquemment, mais ils peuvent parfois être réglés en suivant ces étapes
+## <a name="ts_browser" />A browser based exploit is not working
+Browser based exploits (such as browserhax or 2xrsa) are often unstable and crash frequently, but they can sometimes be fixed by doing the following steps
 
-1. Ouvrez le navigateur, puis allez dans les paramètres du navigateur
-2. Faites défiler tout en bas et sélectionnez "Initialiser les données de sauvegarde" (ou "Effacer les données de sauvegarde")
-3. Retentez l'exploit
+1. Launch the browser, then launch the browser settings
+1. Scroll to the bottom and Initialize Savedata (it also may be called Clear All Save Data)
+1. Try the exploit again
 
-## <a name="ts_safe_a9lh" />Le système démarre directement dans SafeA9LHInstaller
-Vous avez copié le mauvais fichier `arm9loaderhax.bin` sur votre carte SD (vous auriez dû uniquement copier le dossier `3ds` et le fichier`SafeA9LHInstaller.dat` de l'archive SafeA9LHInstaller.zip)    
+## <a name="ts_safe_a9lh" />System boots directly SafeA9LHInstaller
+You copied the wrong `arm9loaderhax.bin` file to your SD card (you were only supposed to copy the `3ds` folder and `SafeA9LHInstaller.dat` file from the SafeA9LHInstaller zip)    
 
-1. Assurez-vous d'utiliser le bon fichier `arm9loaderhax.bin`
-2. Copiez `arm9loaderhax.bin` de l'archive Luma3DS`.zip` vers la racine de votre carte SD
-3. Redémarrez en maintenant (Select) enfoncé et continuez
+1. Use the correct `arm9loaderhax.bin`
+1. Copy `arm9loaderhax.bin` from the Luma3DS `.zip` to the root of your SD card
+1. Reboot holding (Select) and continue
 
-## <a name="ts_safe_a9lh_screen" />SafeA9LHInstaller affiche un écran glitché
-Ceci se produit occasionnellement, mais la raison est inconnue. Les boutons fonctionneront malgré tout, mais l'écran sera glitché
+## <a name="ts_safe_a9lh_screen" />SafeA9LHInstaller shows a glitched screen
+This happens occasionally, but the reason is unknown. The buttons will still work, but the screen will be glitched looking
 
-1. Suivez les instructions comme si de rien n'était
-2. Appuyez sur (Select) et arm9loaderhax sera installé
-3. Patientez quelques secondes
-4. Éteignez votre console en appuyant sur n'importe quel bouton
+1. Follow instructions as normal
+1. Press (Select) and arm9loaderhax will be installed
+1. Wait a few seconds
+1. Power off your device by pressing any button
 
-## <a name="ts_d9_backup" />Decrypt9 ou Hourglass9 ne veulent pas restaurer / ne trouvent pas mon backup de NAND
+## <a name="ts_sys_down" />Black screen on SysNAND boot
 
-1. Vérifiez que vous n'avez pas de dossier nommé "Decrypt9" à la **racine** de votre carte SD
-2. Essayez de vérifier votre carte SD pour trouver des erreurs à l’aide [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac))
-3. Essayez de sauvegarder vos fichiers présent sur la carte SD, puis de la formater et de les remettre
-4. Essayez une carte SD différente
+1. Try booting with your SD card out, and then reinserting it after booting
+    1. Power off your device
+    1. Remove your SD card from your device
+    1. Power on your device
+    1. When the home menu appears, reinsert your SD card into your device
+    1. If this worked, you should clear Home Menu's extdata by navigating to the following folder on your SD card: `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/`
+        + EUR Region: Delete `00000098`
+        + JPN Region: Delete `00000082`
+        + USA Region: Delete `0000008f`
+        + CHN Region: Delete `000000A1`
+        + KOR Region: Delete `000000A9`
+        + TWN Region: Delete `000000B1`
+1. Try booting without any cartridges inserted (including flashcarts)
+1. If you have a hardmod and a NAND backup, flash the backup back to SysNAND
+1. Try booting into recovery mode and updating your system    
+    *This probably will not work for an Old 3DS downgraded to 2.1.0*    
+    **This will BRICK a New 3DS downgraded to 2.1.0**
+    1. Power off your device
+    1. Hold (L)+(R)+(A)+(Up)
+    1. Power on your device
+    1. If you enter safe mode, update your device *only if you have an entrypoint for the latest FW version and it is possible to downgrade from it* and attempt the downgrade again.
+1. Your device may be bricked. For support, ask for help at [#3dshacks on Rizon IRC](https://www.reddit.com/r/3dshacks/wiki/irc) or [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp)
 
-## <a name="ts_sys_down" />Écran noir au démarrage de la SysNAND
+## <a name="ts_sys_a9lh" />Black screen on SysNAND boot after installing arm9loaderhax
 
-1. Essayez de démarrer sans carte SD, puis de la réinserer après le démarrage.
-    1. Éteignez votre 3DS en maintenant le bouton Power enfoncé.
-    2. Retirez votre carte SD.
-    3. Allumez votre 3DS.
-    4. Quand le menu Home apparait, réinserez la carte SD.
-    5. Si cela a fonctionné, vous devriez effacer les données additionnelles du Menu Home en naviguant jusqu’au dossier suivant sur votre carte SD : ' / Nintendo 3DS /(32 Character ID) 00000000/extdata//(32 Character ID) /'
-        + Région EUR : Supprimer `00000098`
-        + Région JPN : Supprimer `00000082`
-        + Région USA : Supprimer `0000008f`
-        + Région KOR : Supprimer `000000A9`
-2. Essayez de démarrer votre console sans aucune cartouche insérée (ni linker)
-3. Si vous avez un hardmod et une sauvegarde de votre NAND, flashez-la vers votre SysNAND.
-4. Essayez de démarrer en mode de récupération et de mettre à jour votre console.    
-    * Ceci ne fonctionnera probablement pas pour une Old 3DS downgradée en 2.1.0*    
-    ** Ceci BRICKERA (rendra non-fonctionnel) une New 3DS downgradée en 2.1.0**
-    1. Éteignez votre 3DS en maintenant le bouton Power enfoncé.
-    2. Maintenez les boutons (L)+(R)+(A)+(Haut) enfoncés.
-    3. Allumez votre 3DS.
-    4. Si vous démarrez en mode de récupération , mettez à jour votre 3DS *uniquement si vous avez un point d’entrée accessible sur la dernière version du firmware et s'il est possible de downgrader a partir de cette version* puis retentez le downgrade.
-5. Votre 3DS peut être brickée (définitivement hors fonction). Si vous avez besoin d'aide, rendez vous sur [le chat Rizon IRC #3dshacks](https://www.reddit.com/r/3dshacks/wiki/irc) ou sur [le serveur Discord Nintendo Homebrew](https://discord.gg/MWxPgEp).
+1. Ensure you have a working payload.
+    1. Check for the existence of `arm9loaderhax.bin` in the root of your SD card.
+1. Try resetting Luma's config and fix options
+    1. Delete `/luma/config.bin` from your SD card
+    1. Set your options when it boots
+1. Test booting GodMode9
+    1. On Luma3DS, hold (Start) on boot
+1. Try deleting home menu's extdata
+    1. Clear Home Menu's extdata by navigating to the following folder on your SD card: `/Nintendo 3DS/(32 Character ID)/(32 Character ID)/extdata/00000000/`
+        + EUR Region: Delete `00000098`
+        + JPN Region: Delete `00000082`
+        + USA Region: Delete `0000008f`
+        + CHN Region: Delete `000000A1`
+        + KOR Region: Delete `000000A9`
+        + TWN Region: Delete `000000B1`
+1. Try booting without any cartridges inserted (including flashcarts)
+1. If you previously downgraded with Gateway, ensure that you are using the latest Luma3DS version (v6.2.3 or higher, at the least)
+1. If your NAND is of a version between 3.0.0 and 4.5.0, do the following:
+    + Ensure that you are using the latest Luma3DS version (v6.6 or higher, at the least)
+    + Download [this file](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) and rename it to `firmware.bin`
+    + Download [this file](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
+    + Copy `firmware.bin` and `cetk` to the `/luma/` folder on your SD card
+    + Delete both of these files after updating your device
+1. Try following [9.2.0 CTRTransfer](9.2.0-ctrtransfer)
+1. Ask for help at [#3dshacks on Rizon IRC](https://www.reddit.com/r/3dshacks/wiki/irc) or [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
-## <a name="ts_sys_a9lh" /> Écran noir au démarrage de ma SysNAND après avoir installé arm9loaderhax
+## <a name="ts_transfer" />Error during SafeCTRTransfer
 
-1. Assurez-vous d'avoir un payload fonctionnel.
-    1. Vérifiez que vous avez bien un fichier nommé `arm9loaderhax.bin` à la racine de votre carte SD.
-2. Essayez de réinitialiser la configuration de Luma3DS et de corriger les options
-    1. Supprimez `/luma/config.bin` de votre carte SD
-    2. Définissez vos options au prochain démarrage de la console
-3. Essayez de démarrer Hourglass9
-    1. Avec Luma3DS, maintenez (Start) au démarrage
-4. Essayez de supprimer les données additionnelles (extdata) du menu Home
-    1. Supprimez les données additionnelles du menu Home en allant dans le répertoire suivant sur votre carte SD : `/Nintendo 3DS/(ID de 32 caractères)/(ID de 32 caractères)/extdata/00000000/`
-        + Région EUR : Supprimer `00000098`
-        + Région JPN : Supprimer `00000082`
-        + Région USA : Supprimer `0000008f`
-        + Région KOR : Supprimer `000000A9`
-5. Essayez de démarrer votre console sans aucune cartouche insérée (ni linker)
-6. Si vous avez auparavant réalisé un downgrade via Gateway, assurez-vous que vous utilisez la dernière version de Luma3DS (v6.2.3 ou plus récent, au minimum)
-7. Si votre NAND est entre la version 3.0.0 et 4.5.0, faites ceci :
-    + Assurez-vous d'utiliser la dernière version de Luma3DS (v6.6 ou plus, au moins)
-    + Téléchargez [ce fichier](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/00000056) et renommez-le en `firmware.bin`
-    + Téléchargez [ce fichier](http://nus.cdn.c.shop.nintendowifi.net/ccs/download/0004013800000002/cetk)
-    + Copiez `firmware.bin` et`cetk` dans le répertoire `/luma/` sur votre carte SD
-    + Supprimez ces deux fichiers après avoir mis à jour votre 3DS
-8. Essayer de réaliser le [downgrade en 9.2.0 (CTRtransfer)](9.2.0-ctrtransfer)
-9. Demandez de l'aide (En Anglais) sur [le chat Rizon IRC #3dshacks](https://www.reddit.com/r/3dshacks/wiki/irc) ou sur [le serveur Discord Nintendo Homebrew](https://discord.gg/MWxPgEp).
+If an error occurs during the SafeCTRTransfer process, you will be prompted to launch an external payload for the purpose of repairing your device.
 
-## <a name="ts_sys_blue" />Écran bleu au démarrage (erreur bootrom)
+#### What you need
 
-1. Votre 3DS est brickée
-2. Vous allez devoir mettre en place un [hardmod](https://gbatemp.net/threads/414498/) ou réparer/échanger votre console
+* The latest release of [GodMode9](https://github.com/d0k3/GodMode9/releases/latest)
+
+#### Instructions
+
+1. Select "Unmount SD card"
+1. Insert your SD card into your computer
+1. Copy `GodMode9.bin` from the GodMode9 `.zip` to the `/ctrtransfer/` folder on your SD card and rename `GodMode9.bin` in `/ctrtransfer/` to `payload.bin`
+1. Reinsert your SD card into your device
+1. Select "Run 0:/ctrtransfer/payload.bin"
+1. If it was successful, you will have entered GodMode9
+1. Navigate to `SDCARD` -> `ctrtransfer`
+1. Press (A) on `<serialnumber>_nand.bin` to select it, then select "NAND image options...", then select "Restore SysNAND (safe)"
+1. Press (A) to unlock SysNAND overwriting, then input the key combo given
+  + This will not overwrite your arm9loaderhax installation
+1. Input the key combo given to unlock SysNAND (lvl1) writing
+  + This process will take some time
+1. Press (A) to continue once it has completed
+1. Press (Start) to reboot your device
+1. Report this issue to the [SafeCTRTransfer Issues Page](https://github.com/d0k3/SafeCTRTransfer/issues)
+
+## <a name="ts_sys_blue" />Blue screen on boot (bootrom error)
+
+1. Your device is bricked
+1. You will need to get a [hardmod](https://gbatemp.net/threads/414498/) or repair / replace your device
