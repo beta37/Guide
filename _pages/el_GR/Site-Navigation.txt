@@ -1,47 +1,46 @@
 ---
-title: "Πλοήγηση Ιστοτόπου" #
-lang: el
-permalink: /el_GR/site-navigation.html
+title: "Site Navigation" #
+lang: en
+permalink: /site-navigation.html
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-1 %}
-**Δημοφιλή**
+**Popular**
 
-+ [Εγκατάσταση arm9loaderhax](installing-arm9loaderhax)
++ [Installing arm9loaderhax](installing-arm9loaderhax)
 + [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax))
-+ [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
++ [SafeCTRTransfer (Homebrew Launcher)](safectrtransfer-(homebrew-launcher))
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**Όλα**
+**All**
 
-+ [2.1.0 ctrtransfer](2.1.0-ctrtransfer)
-+ [9.2.0 ctrtransfer](9.2.0-ctrtransfer)
-+ [Ενημέρωση μέσω κασέτας](cart-update)
-+ [Ευχαριστίες](credits)
-+ [Decrypt9 (Με Πρόγραμμα Περιήγησης)](decrypt9-(browser))
-+ [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
-+ [Decrypt9 (MSET)](decrypt9-(mset))
-+ [Δωρεές](donations)
++ [9.2.0 CTRTransfer](9.2.0-ctrtransfer)
++ [Cart Update](cart-update)
++ [Credits](credits)
++ [Donations](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
-+ [Συχνές Ερωτήσεις](faq)
-+ [Ας αρχίσουμε (New 3DS)](get-started-(new-3ds))
-+ [Ας αρχίσουμε (Old 3DS)](get-started-(old-3ds))
-+ [Ας αρχίσουμε](get-started)
++ [FAQ](faq)
++ [Get Started (New 3DS)](get-started-(new-3ds))
++ [Get Started (Old 3DS)](get-started-(old-3ds))
++ [Get Started](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [Home](/)
 + [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax))
-+ [Homebrew Launcher (Εναλλακτικές)](homebrew-launcher-(alternatives))
-+ [Εγκατάσταση arm9loaderhax](installing-arm9loaderhax)
-+ [Μετακίνηση της EmuNAND](move-emunand)
-+ [NTR και Cubic Ninja](ntr-and-cubic-ninja)
-+ [Αλλαγή Περιοχής](region-changing)
-+ [Αντιμετώπιση Προβλημάτων](troubleshooting)
-+ [Ενημέρωση του A9LH](updating-a9lh)
-+ [Γιατί βλέπω διαφημίσεις?](why-ads)
++ [Homebrew Launcher (Alternatives)](homebrew-launcher-(alternatives))
++ [Installing arm9loaderhax](installing-arm9loaderhax)
++ [Move EmuNAND](move-emunand)
++ [NTR and Cubic Ninja](ntr-and-cubic-ninja)
++ [Region Changing](region-changing)
++ [SafeCTRTransfer (Browser)](safectrtransfer-(browser))
++ [SafeCTRTransfer (Homebrew Launcher)](safectrtransfer-(homebrew-launcher))
++ [SafeCTRTransfer (MSET)](safectrtransfer-(mset))
++ [Troubleshooting](troubleshooting)
++ [Updating A9LH](updating-a9lh)
++ [Why Ads?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
