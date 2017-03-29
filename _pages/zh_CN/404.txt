@@ -1,11 +1,11 @@
 ---
-title: "找不到页面" #
-lang: zh_CN
-permalink: /zh_CN/404.html
+title: "Page Not Found" #
+lang: en
+permalink: /404.html
 layout: single-no-ads
-excerpt: "找不到页面。 您的画在另一张画布上哦！"#
+excerpt: "Page not found. Your pixels are in another canvas." #
 sitemap: false
 ---
 
-### 对不起，此页面并不存在。
+### Sorry, but the page you were trying to view does not exist.
 {: .text-center}
