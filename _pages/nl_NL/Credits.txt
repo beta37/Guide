@@ -1,16 +1,16 @@
 ---
 title: "Credits" #
-lang: nl
-permalink: /nl_NL/credits.html
+lang: en
+permalink: /credits.html
 ---
 
-** Speciale dank aan iedereen op [#Cakey Freenode](http://webchat.freenode.net/?channels=%23Cakey) omdat ze awesome zijn **
+**Special thanks to all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome!**
 {: .notice--primary}
 
-**Erg veel dank gaat uit naar [alle vertalers](https://translate.3ds.guide/), omdat jullie zo fantastisch zijn!**
+**Special thanks to all of [the translators](https://translate.3ds.guide/) for being awesome!**
 {: .notice--primary}
 
-Als ik je hier ben vergeten te noemen, neem contact met me op, dan voeg ik je toe.
+If I forgot you here, contact me and I'll add your name.
 {: .notice}
 
 + AHP_Person
@@ -43,7 +43,7 @@ Als ik je hier ben vergeten te noemen, neem contact met me op, dan voeg ik je to
 + jkcgs
 + LordBass
 + MassExplosion123
-+ mid-kind
++ mid-kid
 + MrNbaYoh
 + Mrrraou
 + Night_Fallen_Wolf
