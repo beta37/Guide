@@ -1,17 +1,17 @@
 ---
-title: "Waarom advertenties?" #
-lang: nl
-permalink: /nl_NL/why-ads.html
+title: "Why Ads?" #
+lang: en
+permalink: /why-ads.html
 layout: single-no-ads
 ---
 
-Dit project is het resultaat van honderden uren van constant werk.
+This project is the culmination of hundreds upon hundreds of hours of constant work.
 
-Ik onderhoud deze gids gratis en zorg er voor dat deze altijd actueel is. Hierdoor, heb ik het gevoel dat het eerlijk voor mij is als ik probeer om een klein inkomen te maken van mijn werk, ook omdat ik ondertussen zo goed als geen donaties meer ontvang.
+I maintain this guide, for free, and ensure it is always up to date. Because of this effort, I feel that it is fair for me to attempt to gain a meager income from my work (I receive next to no donations anymore).
 
-Als gebruiker kost deze website je niets, en ik zorg er voor dat er alleen non-intrusive reclame weergegeven word. Mocht je hier nogsteeds een probleem mee hebben, voel je vrij om deze reclame's te blokkeren.
+This site costs you nothing to use, and all that I display are non-intrusive ads. If you still have a problem with this, feel free to block these ads.
 
-Mocht je de reclame blokkeren, dan herrinner ik je graag aan de [Donatie](donations) pagina. Maar nogmaals, dat is totaal vrijwillig.
+If you do block ads, I would like to also remind you of the [Donations](donations) page, but once again that is optional too.
 
-Bedankt,<br>
+Thanks,<br>
 Plailect

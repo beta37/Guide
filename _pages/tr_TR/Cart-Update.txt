@@ -1,33 +1,32 @@
 ---
-title: "Kartuş Güncellemesi" #
-lang: tr
-permalink: /tr_TR/cart-update.html
+title: "Cart Update" #
+lang: en
+permalink: /cart-update.html
 ---
 
-Her oyun kartuşu içinde daha düşük versiyondaki cihazları güncellenmesine olanak veren (internet olmasa bile) ve oynayabilmek için gerekli sistem versiyonunu içerir.
+All game carts contain a copy of the required system version to play it, allowing anyone on a lower version to use the cartridge to update to that version (even without an internet connection).
 {: .notice--info}
 
-Kartuş güncelleştirmeleri sadece temel özellikleri içerir, örneğin; Sistem ayarları, Ana Menü vb. Kartuş güncelleştirmeleri Nintendo 3DS Sound ve Ağ özelliği güncellemeleri içermez.
+Cart Updates will only deliver updates to core features, such as the System Settings, Home Menu, etc. Cart Updates will not deliver updates to Nintendo 3DS Sound and Network features, such as System Transfer, Internet Browser, StreetPass Mii Plaza or eShop.
 {: .notice--info}
 
-Bu şu anlama gelir, eğer versiyon <9.0.0'dan düşük bir kartuş güncellemesi [Soundhax](homebrew-launcher-(soundhax))! bozar! Homebrew'ı çalıştırmak için [alternatif bir yöntem](homebrew-launcher-(alternatives)) gerekir!
+This means that a cart update from a version <9.0.0 will break [Soundhax](homebrew-launcher-(soundhax))! You will need an [alternate method](homebrew-launcher-(alternatives)) of entering the Homebrew Launcher!
 {: .notice--warning}
 
-
-Bu demektir ki kartuş güncellemesi eğer sizde hali hazırda mevcut ise tarayıcı YÜKLEMEZ. Bu **sadece** var olan sistem versiyonunu günceller *(örneğin, 2.1.0-0 -> 6.0.0-0)*. Son numara *(-0)* **değişmez**.
+This also means that a cart update will NOT install a browser if you do not already have one. This will **only** update the actual system version *(for example, 2.1.0-0 -> 6.0.0-0)*. The last number *(the -0)* will **not** change.
 {: .notice--warning}
 
-**9.9.0 ve üstü bir oyun kartuşu ile güncelleme tarayıcınızı siler!**
+**Updating with a game cart containing the version 9.9.0 or above will remove your browser!**
 {: .notice--danger}
 
-#### Nelere ihtiyacınız var
+#### What you need
 
-* İçerisinde [bu versiyonu içeren](http://www.3dsdb.com/) bir kartuş
+* A game cart that [contains the version](http://www.3dsdb.com/) specified in the chart
 
-#### Talimatlar
+#### Instructions
 
-1. 3DS cihazınızı açarken L+R+A+YUKARI tuşlarına basılı tutarak kurtarma moduna alın
-2. Güncellemeyi es geçip yeniden başlatın
-3. Sisteme oyunu takın
-4. Oyunu başlatın
-5. Bildiri geldiğinde güncellemeyi yapın
+1. Boot your device into recovery mode by holding L+R+A+UP while powering on
+1. Decline the update and reboot
+1. Put the game in the system
+1. Attempt to launch the game
+1. Update when prompted

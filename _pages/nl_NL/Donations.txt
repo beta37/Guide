@@ -1,15 +1,16 @@
 ---
-title: "Donaties" #
-lang: nl
-permalink: /nl_NL/donations.html
+title: "Donations" #
+lang: en
+permalink: /donations.html
 layout: single-no-ads
 ---
 
-## Als je deze handleiding behulpzaam vindt en je wilt een donatie maken, dan kan dat.
+## If you appreciate this guide, I accept donations.
 {: .text-center}
 {: .notice--success}
 
-[![Bitcoin]({{ base_path }}/images/donate_64.png)](https://www.coinbase.com/plailect){: .align-center}
+![Bitcoin]({{ base_path }}/images/donate_64.png){: .align-center}
+1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety
 {: .text-center}
 
 [![Paypal]({{ base_path }}/images/paypal.jpg)](https://www.paypal.me/plailect/15){: .align-center}

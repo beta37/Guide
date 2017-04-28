@@ -1,47 +1,46 @@
 ---
-title: "사이트맵" #
-lang: ko
-permalink: /ko_KR/site-navigation.html
+title: "Site Navigation" #
+lang: en
+permalink: /site-navigation.html
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-1 %}
-**자주 방문하는 페이지**
+**Popular**
 
-+ [arm9loaderhax 설치](installing-arm9loaderhax)
++ [Installing arm9loaderhax](installing-arm9loaderhax)
 + [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax))
-+ [Decrypt9 (홈브류 런처)](decrypt9-(homebrew-launcher))
++ [SafeCTRTransfer (Homebrew Launcher)](safectrtransfer-(homebrew-launcher))
 {% endcapture %}
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-2 %}
-**모든 페이지**
+**All**
 
-+ [2.1.0 ctrtransfer](2.1.0-ctrtransfer)
-+ [9.2.0 ctrtransfer](9.2.0-ctrtransfer)
-+ [게임 팩 업데이트](cart-update)
-+ [기여하신 분들](credits)
-+ [Decrypt9 (브라우저)](decrypt9-(browser))
-+ [Decrypt9 (Homebrew Launcher)](decrypt9-(homebrew-launcher))
-+ [Decrypt9 (MSET)](decrypt9-(mset))
-+ [기부](donations)
++ [9.2.0 CTRTransfer](9.2.0-ctrtransfer)
++ [Cart Update](cart-update)
++ [Credits](credits)
++ [Donations](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
-+ [자주 묻는 질문 (FAQ)](faq)
-+ [시작하기 (뉴 3DS)](get-started-(new-3ds))
-+ [시작하기 (구 3DS)](get-started-(old-3ds))
-+ [시작하기](get-started)
++ [FAQ](faq)
++ [Get Started (New 3DS)](get-started-(new-3ds))
++ [Get Started (Old 3DS)](get-started-(old-3ds))
++ [Get Started](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [홈](/)
++ [Home](/)
 + [Homebrew Launcher (Soundhax)](homebrew-launcher-(soundhax))
 + [Homebrew Launcher (Alternatives)](homebrew-launcher-(alternatives))
 + [Installing arm9loaderhax](installing-arm9loaderhax)
-+ [EmuNAND기반 데이터 이동](move-emunand)
-+ [NTR 및 Cubic Ninja](ntr-and-cubic-ninja)
-+ [지역 변경](region-changing)
-+ [문제 해결](troubleshooting)
-+ [A9LH 업데이트](updating-a9lh)
-+ [왜 광고가 있나요?](why-ads)
++ [Move EmuNAND](move-emunand)
++ [NTR and Cubic Ninja](ntr-and-cubic-ninja)
++ [Region Changing](region-changing)
++ [SafeCTRTransfer (Browser)](safectrtransfer-(browser))
++ [SafeCTRTransfer (Homebrew Launcher)](safectrtransfer-(homebrew-launcher))
++ [SafeCTRTransfer (MSET)](safectrtransfer-(mset))
++ [Troubleshooting](troubleshooting)
++ [Updating A9LH](updating-a9lh)
++ [Why Ads?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

@@ -1,33 +1,32 @@
 ---
-title: "カードで更新する" #
-lang: ja
-permalink: /ja_JP/cart-update.html
+title: "Cart Update" #
+lang: en
+permalink: /cart-update.html
 ---
 
-すべてのゲームカードには、要求バージョンよりも3DSのバージョンが低い場合のために、ファームウェアイメージが入っています。(インターネット接続は不要です。)
+All game carts contain a copy of the required system version to play it, allowing anyone on a lower version to use the cartridge to update to that version (even without an internet connection).
 {: .notice--info}
 
-ゲームカード経由のアップデートでは、システム設定、ホーム メニューなどの、コア機能のみが更新されます。 ゲームカード経由の更新ではシステムを転送、インターネット ブラウザー、Mii 広場 e ショップなどのネットワーク機能部分とニンテンドー3DSサウンドの更新は提供されません。
+Cart Updates will only deliver updates to core features, such as the System Settings, Home Menu, etc. Cart Updates will not deliver updates to Nintendo 3DS Sound and Network features, such as System Transfer, Internet Browser, StreetPass Mii Plaza or eShop.
 {: .notice--info}
 
-そのため、9.0.0以前のバージョンにカードで更新すると、[Soundhax](homebrew-launcher-(soundhax))を実行できなくなります！ その場合、[その他の方法](homebrew-launcher-(alternatives))でHomebrew Launcherを実行しなければなりません！
+This means that a cart update from a version <9.0.0 will break [Soundhax](homebrew-launcher-(soundhax))! You will need an [alternate method](homebrew-launcher-(alternatives)) of entering the Homebrew Launcher!
 {: .notice--warning}
 
-
-そのため、ブラウザをまだインストールしていない場合は、カードで更新してもブラウザをインストールしません。 これは実際のシステムバージョン**のみ**が更新されます。*（たとえば 6.0.0-0-> 2.1.0-0）* 最後の番号*（-0）*は変更**されません**。
+This also means that a cart update will NOT install a browser if you do not already have one. This will **only** update the actual system version *(for example, 2.1.0-0 -> 6.0.0-0)*. The last number *(the -0)* will **not** change.
 {: .notice--warning}
 
-**9.9.0以降のシステムを含むゲームカードで更新すると、ブラウザが削除されます！**
+**Updating with a game cart containing the version 9.9.0 or above will remove your browser!**
 {: .notice--danger}
 
-#### 必要なもの
+#### What you need
 
-* チャートで[指定したバージョン](http://www.3dsdb.com/)のシステムを含むゲームカード
+* A game cart that [contains the version](http://www.3dsdb.com/) specified in the chart
 
-#### 手順
+#### Instructions
 
-1. L+R+A+UPを同時に押して3DSを起動します。デバイスはリカバリーモードを起動します
-2. アップデートを拒否して再起動します
-3. 3DSにゲームカードを入れます
-4. ゲームを起動します
-5. 指示通り更新します
+1. Boot your device into recovery mode by holding L+R+A+UP while powering on
+1. Decline the update and reboot
+1. Put the game in the system
+1. Attempt to launch the game
+1. Update when prompted

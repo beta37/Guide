@@ -1,63 +1,63 @@
 ---
 title: "F3 (Linux)" #
-lang: ro
-permalink: /ro_RO/f3-(linux).html
+lang: en
+permalink: /f3-(linux).html
 ---
 
-Această pagină vă va ghida prin procesul de a verifica cardul SD de erori folosind F3.
+This page will walk you through the process of checking your SD card for errors using F3.
 {: .notice}
 
-În funcție de mărimea cardului SD și de viteza computerului dumneavoastră, acest proces poate dura până la câteva ore!
+Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
 {: .notice--info}
 
-Această pagină este doar pentru utilizatorii de Linux. Dacă nu sunteți pe Linux, verificați paginile [H2testw (windows)](h2testw-(windows)) sau [F3X (mac)](f3x-(mac)).
+This page is for Linux users only. If you are not on Linux, check out the [H2testw (windows)](h2testw-(windows)) or [F3X (mac)](f3x-(mac)) pages.
 {: .notice--info}
 
-#### Ce vă trebuie
+#### What you need
 
-* Cea mai recentă versiune de [F3] (https://github.com/AltraMayor/f3/archive/v6.0.zip)
+* The latest version of [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
-#### Instrucţiuni
+#### Instructions
 
-1. Dezarhivaţi fişierul '.zip' F3X
-2. 'cd' în directorul f3
-3. Rulați 'make ' pentru a compila F3
-4. Introduceți cardul SD în computer
-5. Montați cardul SD
-6. Executaţi '. / f3write <your sd card mount point>'
-7. Așteptați până când procesul este terminat. Vezi mai jos un exemplu de rezultat.
+1. Unzip the f3 `.zip` file
+1. `cd` into the f3 directory
+1. Run `make` to compile F3
+1. Insert your SD card into your computer
+1. Mount your SD card
+1. Run `./f3write <your sd card mount point>`
+1. Wait until the process is complete. See below for an example output.
 
-		$. / f3write /media/michel/6135-3363 /
-		Spaţiu liber: 29,71 GB
-		Crearea fişierului 1.h2w... OK!
+		$ ./f3write /media/michel/6135-3363/
+		Free space: 29.71 GB
+		Creating file 1.h2w ... OK!
 		...
-		Crearea fişierului 1.h2w ... OK!
-		Spaţiu liber: 0.00 octet
-		Viteză medie de scriere: 4.90 MB/s
+		Creating file 30.h2w ... OK!
+		Free space: 0.00 Byte
+		Average Writing speed: 4.90 MB/s
 
-8. Executaţi '. / f3write <your sd card mount point>'
-9. Așteptați până când procesul este terminat. Vezi mai jos un exemplu de rezultat.
+1. Run `./f3read <your sd card mount point>`
+1. Wait until the process is complete. See below for an example output.
 
 		$ ./f3read /media/michel/6135-3363/
 		                  SECTORS      ok/corrupted/changed/overwritten
-		Validare fișier 1.h2w... 2097152/        0/      0/      0
+		Validating file 1.h2w ... 2097152/        0/      0/      0
 		...
-		Validare fișier 30.h2w ... 1491904/        0/      0/      0
+		Validating file 30.h2w ... 1491904/        0/      0/      0
 
 		  Data OK: 29.71 GB (62309312 sectors)
-		Datele PIERDUTE: 0.00 octet (sectoarele 0)
-			       Corupt: Byte 0.00 (0 sectoare)
-			Uşor schimbat: 0.00 octet (sectoarele 0)
-			     Suprascrise: 0.00 octet (sectoarele 0)
-		Viteză medie de citire: 9.42 MB/s
+		Data LOST: 0.00 Byte (0 sectors)
+			       Corrupted: 0.00 Byte (0 sectors)
+			Slightly changed: 0.00 Byte (0 sectors)
+			     Overwritten: 0.00 Byte (0 sectors)
+		Average Reading speed: 9.42 MB/s
 
 ___
 
-În cazul în care testul prezinta rezultatul ' date PIERDUTE: 0.00 octet (0 sectoare)' cardul SD este bun şi puteţi şterge toate fişierele de '.h2w' pe cardul SD
+If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is good and you can delete all `.h2w` files on your SD card
 {: .notice--success}
 
-Dacă testul arată alte rezultate, cardul SD ar putea fi corupt sau deteriorat și s-ar putea să trebuiască să îl înlocuiți!
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 {: .notice--danger}
 
-Întoarceți-vă la [Începe](get-started)
+Return to [Get Started](get-started)
 {: .notice--primary}

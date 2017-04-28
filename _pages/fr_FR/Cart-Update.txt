@@ -1,33 +1,32 @@
 ---
-title: "Mise à jour par Cartouche" #
-lang: fr
-permalink: /fr_FR/cart-update.html
+title: "Cart Update" #
+lang: en
+permalink: /cart-update.html
 ---
 
-Toutes les cartouches de jeu contiennent une copie du firmware nécessaire pour pouvoir y jouer, ce qui permet à n'importe qui de mettre à jour sa console vers celui-ci (même sans connexion internet).
+All game carts contain a copy of the required system version to play it, allowing anyone on a lower version to use the cartridge to update to that version (even without an internet connection).
 {: .notice--info}
 
-Les mises à jour par cartouche vont mettre uniquement à jour les fonctionnalités principales telles que les Paramètres Systèmes, le Menu Home, etc. Les mises à jour par cartouche ne vont pas mettre à jour le Studio son Nintendo 3DS et les fonctionnalités Internet comme le Transfert Système, le Navigateur Internet, la Place Mii Streetpass ou le Nitendo eShop.
+Cart Updates will only deliver updates to core features, such as the System Settings, Home Menu, etc. Cart Updates will not deliver updates to Nintendo 3DS Sound and Network features, such as System Transfer, Internet Browser, StreetPass Mii Plaza or eShop.
 {: .notice--info}
 
-Ce qui veut dire que [Soundhax](homebrew-launcher-(soundhax)) ne fonctionnera plus après une mise à jour par cartouche depuis une version inférieure à 9.0.0! Vous aurez besoin d'une [autre alternative](homebrew-launcher-(alternatives)) pour entrer dans l'Homebrew Launcher!
+This means that a cart update from a version <9.0.0 will break [Soundhax](homebrew-launcher-(soundhax))! You will need an [alternate method](homebrew-launcher-(alternatives)) of entering the Homebrew Launcher!
 {: .notice--warning}
 
-
-Cela signifie également qu'une mise à jour par cartouche N'INSTALLERA PAS de navigateur internet sur votre console si elle n'en a pas déjà un. **Seule** la partie principale du numéro de version du firmware sera mise à jour *(de 2.1.0-0 vers 6.0.0-0 par exemple)*. Le dernier nombre *(le -0)* ne changera **pas**.
+This also means that a cart update will NOT install a browser if you do not already have one. This will **only** update the actual system version *(for example, 2.1.0-0 -> 6.0.0-0)*. The last number *(the -0)* will **not** change.
 {: .notice--warning}
 
-**Mettre à jour votre console avec une cartouche contenant le firmware 9.9.0 ou supérieur supprimera votre navigateur internet !**
+**Updating with a game cart containing the version 9.9.0 or above will remove your browser!**
 {: .notice--danger}
 
-#### Ce dont vous aurez besoin
+#### What you need
 
-* Une cartouche qui [contient la version](http://www.3dsdb.com/) spécifiée dans le tableau précédent
+* A game cart that [contains the version](http://www.3dsdb.com/) specified in the chart
 
 #### Instructions
 
-1. Démarrez votre 3DS en mode de récupération en maintenant L+R+A+Haut enfoncés au démarrage
-2. Refusez de mettre à jour la console et redémarrez
-3. Insérez la cartouche dans la console
-4. Tentez de lancer le jeu
-5. Acceptez la mise à jour quand un pop-up apparaît
+1. Boot your device into recovery mode by holding L+R+A+UP while powering on
+1. Decline the update and reboot
+1. Put the game in the system
+1. Attempt to launch the game
+1. Update when prompted

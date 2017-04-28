@@ -1,33 +1,32 @@
 ---
-title: "Update cu card de joc" #
-lang: ro
-permalink: /ro_RO/cart-update.html
+title: "Cart Update" #
+lang: en
+permalink: /cart-update.html
 ---
 
-Toate cardurile cu jocuri conțin o copie cu versiunea necesară de sistem ca să o joci, permițând tuturor cu o versiune mai mică să folosească cardurile pentru a actualiza la acea versiune (chiar și fără conexiune la internet).
+All game carts contain a copy of the required system version to play it, allowing anyone on a lower version to use the cartridge to update to that version (even without an internet connection).
 {: .notice--info}
 
 Cart Updates will only deliver updates to core features, such as the System Settings, Home Menu, etc. Cart Updates will not deliver updates to Nintendo 3DS Sound and Network features, such as System Transfer, Internet Browser, StreetPass Mii Plaza or eShop.
 {: .notice--info}
 
-This means that a cart update from a version <9.0.0 will break [Soundhax](homebrew-launcher-(soundhax))! You will need an [alternate method](homebrew-launcher-(alternatives)) of entering the homebrew launcher!
+This means that a cart update from a version <9.0.0 will break [Soundhax](homebrew-launcher-(soundhax))! You will need an [alternate method](homebrew-launcher-(alternatives)) of entering the Homebrew Launcher!
 {: .notice--warning}
 
-
-This also means that a cart update will NOT install a browser if you do not already have one. Acesta va actualiza **doar** versiunea de sistem actuală *(de exemplu, 2.1.0-0 -> 6.0.0-0)*. Ultimul număr *(0-ul)* **nu** se va schimba.
+This also means that a cart update will NOT install a browser if you do not already have one. This will **only** update the actual system version *(for example, 2.1.0-0 -> 6.0.0-0)*. The last number *(the -0)* will **not** change.
 {: .notice--warning}
 
-**Actualizările cu un card de jocuri ce conține versiunea 9.9.0 sau peste vor elimina browser-ul!**
+**Updating with a game cart containing the version 9.9.0 or above will remove your browser!**
 {: .notice--danger}
 
-#### Ce aveți nevoie
+#### What you need
 
-* Un card cu jocuri [conține versiunea](http://www.3dsdb.com/) specificată în tabel
+* A game cart that [contains the version](http://www.3dsdb.com/) specified in the chart
 
-#### Instrucțiuni
+#### Instructions
 
-1. Deschideți 3DS-ul în modul recovery ținând apăsat pe butoanele L+R+A+SUS
-2. Refuzați actualizarea și restartați
-3. Puneți jocul în sistem
-4. Incercați să porniți jocul
-5. Actualizați când vi se cere
+1. Boot your device into recovery mode by holding L+R+A+UP while powering on
+1. Decline the update and reboot
+1. Put the game in the system
+1. Attempt to launch the game
+1. Update when prompted

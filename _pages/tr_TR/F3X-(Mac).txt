@@ -1,38 +1,38 @@
 ---
 title: "F3X (Mac)" #
-lang: tr
-permalink: /tr_TR/f3x-(mac).html
+lang: en
+permalink: /f3x-(mac).html
 ---
 
-Bu sayfada SD kartınızı F3X kullanarak hatalar olup olmadığı kontrol etme sürecinde size yol gösterecektir.
+This page will walk you through the process of checking your SD card for errors using F3X.
 {: .notice}
 
-SD kartınızın boyutuna ve bilgisayarınıza bağlı olarak bu işlem bir kaç saat sürebilir!
+Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
 {: .notice--info}
 
-Bu sayfa yalnızca Mac kullanıcılar içindir. Mac üzerinde değilseniz, buraya bakın [H2testw (windows)](h2testw-(windows)) veya [F3 (Linux)](f3-(linux)).
+This page is for Mac users only. If you are not on Mac, check out the [H2testw (windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
 {: .notice--info}
 
-#### Nelere ihtiyacınız var
+#### What you need
 
-* En son sürümü [F3X] (https://github.com/insidegui/F3X/releases/latest)
+* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
 
-#### Talimatlar
+#### Instructions
 
-1. F3x `.zip` dosyasını zipten çıkarın
-2. SD kartınızı bilgisayarınıza takın
-3. F3X uygulamasını çalıştırın
-4. SD kartınızı seçin
-5. "Start Test" basın
-6. İşlem tamamlanana kadar bekleyin.
+1. Unzip the F3X `.zip` file
+1. Insert your SD card into your computer
+1. Run the F3X app
+1. Select your SD card
+1. Press "Start Test"
+1. Wait until the process is complete.
 
 ___
 
-Test sonucu `Success! Your card is ok!` gösteriyorsa SD kartınız iyi durumdadır ve kartınızdaki tüm `.h2w` dosyalarını silebilirsiniz
+If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on your SD card
 {: .notice--success}
 
-Test diğer sonuçları gösteriyorsa, SD kartınız bozuk veya hasar görmüş olabilir ve değiştirmeniz gerekebilir!
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 {: .notice--danger}
 
-Dönün [Başlarken](get-started)
+Return to [Get Started](get-started)
 {: .notice--primary}

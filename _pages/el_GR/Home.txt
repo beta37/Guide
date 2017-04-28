@@ -1,79 +1,76 @@
 ---
 layout: splash
-title: "Οδηγός 3DS" #
+title: "3DS Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Ας αρχίσουμε" #
-  cta_url: "/el_GR/get-started" #
+  cta_label: "Get Started" #
+  cta_url: "get-started" #
   caption:
-excerpt: "Ένας πλήρης οδηγός για να αποκτήσετε custom firmware στο 3DS, <br /> από το πρωτότυπο στο arm9loaderhax.<br />" #
-lang: el
-permalink: /el_GR/index.html
+excerpt: "A complete guide to 3DS custom firmware, <br /> from stock to arm9loaderhax.<br />" #
+lang: en
+permalink: /index.html
 ---
 
 {% capture notice-home %}
-**Αυτός ο οδηγός είναι _μόνο_ για συσκευές λιανικού (αγορασμένες από τον καταναλωτή· όχι από το Nintendo Developer Program)!    
-Εάν έχετε μια κονσόλα προγραμματιστών ("PANDA" ή "SNAKE"), επισκεφθείτε τον οδηγό [devGuide](https://dev.3ds.guide)**
+**This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!    
+If you have a developer ("PANDA" or "SNAKE") console, check out [devGuide](https://dev.3ds.guide)**
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-**Για να χρησιμοποιήσετε συνδέσμους [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) σε αυτόν τον οδηγό χρειάζεστε ένα torrent client όπως το [Deluge](http://dev.deluge-torrent.org/wiki/Download)**
-{: .notice--info}
-
-**Αυτός ο οδηγός χρειάζεται την βοήθειά *σας* για την [translate](https://translate.3ds.guide/) του σε άλλες γλώσσες!**
+**This guide needs *your* help to [translate](https://translate.3ds.guide/) it to other languages!**
 {: .notice--success}
 
-**Αυτός ο οδηγός χρειάζεται την βοήθειά *σας* για να τροφοδοτήσει [these](https://3ds.guide/rss.xml) τα torrent!**
+**This guide needs *your* help to seed [these](https://3ds.guide/rss.xml) torrents!**
 {: .notice--success}
 
-**Διαβάστε όλες τις εισαγωγικές σελίδες πριν προχωρήσετε.**
+**Read all of the introductory pages before proceeding.**
 {: .notice--warning}
 
-## Τι είναι το Homebrew;
+## What is Homebrew?
 
-Ο όρος [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) συνήθως αναφέρεται σε λογισμικό το οποίο δεν είναι εξουσιοδοτημένο από την Nintendo. Σας επιτρέπει να τρέξετε homebrew παιχνίδια, εργαλεία όπως επεξεργασία αρχείων save και αντιγράφων ασφαλείας και emulators για διάφορα παλαιότερα συστήματα.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
 
-Στις περισσότερες περιπτώσεις, τρέχοντας το homebrew στην κονσόλα σας είναι 100% δωρεάν χρησιμοποιώντας [μόνο το Nintendo 3DS Sound app](homebrew-launcher-(soundhax)) (εάν βρίσκεστε σε έκδοση >=11.3.0, δεν θα μπορέσετε να προχωρήσετε πέραν του homebrew). Υπάρχουν ωστόσο διάφορα άλλα exploits σε παιχνίδια εμπορίου και στο πρόγραμμα περιήγησης για να τρέξετε το homebrew.
+In most cases, running homebrew on your device is 100% free using [just the Nintendo 3DS Sound app](homebrew-launcher-(soundhax)) (if you are on >=11.3.0, you will be unable to proceed past homebrew). There are also various other exploits in commercial games and the browser to get homebrew running.
 
-## Τι είναι το Custom Firmware;
+## What is Custom Firmware?
 
-** Custom Firmware ** («CFW») σας επιτρέπει να χρησιμοποιήσετε πιο προηγμένα hacks που το userland homebrew δεν μπορεί εύκολα να κάνει. Για παράδειγμα, τα patches στην υπογραφή του κώδικα σας επιτρέπουν να εγκαταστήσετε τίτλους χωρίς υπογραφή που θα εμφανίζονται στο HOME Menu σας.
+**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do. For instance, signature patches let you install unsigned titles that appear right on your HOME Menu.
 
-Το CFW μπορεί να ρυθμιστεί εύκολα σε οποιαδήποτε κονσόλα που βρίσκεται στην 11.2.0 ή σε χαμηλότερη έκδοση.
+CFW can be easily set up on any console that is on 11.2.0 or lower.
 
-## Τι εγκαθιστά αυτός ο οδηγός;
+## What does this guide install?
 
-Αυτός ο οδηγός έχει σαν τελικό στόχο να μετατρέψει ένα μη τροποποιημένο 3DS από ένα εργοστασιακό
-firmware σε ένα arm9loaderhax τροφοδοτούμενο από Custom Firmware. Σε κάποιες εκδόσεις, το homebrew χρησιμοποιείται ως ένα σημείο "αρχής", αλλά το Custom Firmware εξακολουθεί να είναι ο στόχος.
+This guide has the end goal of taking a completely unmodified 3DS from stock
+firmware to arm9loaderhax powered Custom Firmware. On some versions, it utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
 
-Το Arm9loaderhax είναι η νέα και καλύτερη μέθοδος φόρτωσης ενός Custom Firmware που μας παρέχει σχεδόν τον πλήρη έλεγχο του συστήματος μόνο μερικά χιλιοστά του δευτερολέπτου κατά την εκκίνηση, η οποία είναι παρόμοια με την δράση του BootMii για το Wii.
+Arm9loaderhax is the newest and best method of launching Custom Firmware that gives us nearly full control of the system only milliseconds into boot, which is similar to the effect of BootMii for the Wii.
 
-Τα οφέλη φόρτωσης του arm9loaderhax από άλλες μεθόδους φόρτωσης Custom Firmware είναι πάρα πολλά, γι' αυτό το λόγο συνίσταται η χρήση του οδηγού αυτού σε σχέση με άλλους που βασίζονται σε ξεπερασμένο λογισμικό (όπως το menuhax ή το rxTools).
+The benefits of arm9loaderhax over other Custom Firmware launch methods are numerous, and as such it is recommended to use this guide over any other that relies on outdated software (such as menuhax or rxTools).
 
-## Τι μπορείτε να κάνετε με το Custom Firmware;
+## What can I do with Custom Firmware?
 
-+ Να παίξετε όλες τις κασέτες παιχνιδιών και παιχνίδια μέσω eShop, ανεξαρτήτου περιοχής
-+ Προσαρμογή του Home Menu με σχεδιασμένα από το χρήστη [themes](https://3dsthem.es/) και [badges](https://badges.3dsthem.es/)
-+ Χρήση "ROM hacks" για παιχνίδια που ήδη έχετε στην κατοχή σας
-+ Να κάνετε λήψη στιγμιότυπου του παιχνιδιού και εφαρμογών
-+ [Δημιουργία αντιγράφων ασφαλείας, επεξεργασίας και επαναφοράς](https://gbatemp.net/threads/release-jks-savemanager-homebrew-cia-save-manager.413143/) saves για πολλά παιχνίδια
-+ Να παίξετε παιχνίδια από παλαιότερα συστήματα με την χρήση διάφορων emulators, χρησιμοποιώντας το Retroarch ή άλλων μεμονωμένων emulators. (Λειτουργεί καλύτερα με το New Nintendo 3DS)
-+ Εγκατάσταση homebrew τίτλων στο σύστημά σας και δυνατότητα εμφάνισης τους στο HOME Menu
-+ Να εξάγετε την κασέτα παιχνιδιού σας σε μία μορφή που θα μπορείτε να εγκαταστήσετε και να παίξετε χωρίς να χρειάζεστε την κασέτα
-+ Μόνο για New 3DS: μεταδώστε ζωντανά το παιχνίδι σας στον υπολογιστή σας με την χρήση του NTR CFW
-+ Τρέξιμο πολλών παλιών Nintendo DS flash καρτών που είχαν μπλοκαριστεί πριν από καιρό ή δεν δούλεψαν ποτέ στο Nintendo 3DS
-+ Να ενημερώσετε με ασφάλεια στην πιο πρόσφατη έκδοση του συστήματος, χωρίς τον φόβο απώλειας πρόσβασης στο homebrew
++ Play all game cards and eShop games, regardless of region
++ Customize your HOME Menu with user-created [themes](https://3dsthem.es/) and [badges](https://badges.3dsthem.es/)
++ Use "ROM hacks" for games that you own
++ Take gameplay and application screenshots
++ [Backup, edit, and restore](https://gbatemp.net/threads/release-jks-savemanager-homebrew-cia-save-manager.413143/) saves for many games
++ Play games for older systems with various emulators, using RetroArch or other standalone emulators. (Works best with a New Nintendo 3DS)
++ Install homebrew titles to your system, and have them appear on your HOME Menu
++ Dump your game cards to a format you can install, and play them without needing the card
++ New 3DS only: stream live gameplay to your PC wirelessly with NTR CFW
++ Run many old Nintendo DS flash carts that were blocked long ago or never worked on Nintendo 3DS
++ Safely update to the latest system version without fear of losing access to homebrew
 
-## Τι πρέπει να γνωρίζετε πριν ξεκινήσετε;
+## What do I need to know before starting?
 
-+ **Προτού ξεκινήσετε τον οδηγό, θα πρέπει να ξέρετε τους κινδύνους πίσω από το hacking του 3DS: ΚΑΘΕ φορά που τροποποιείτε το σύστημά σας, υπάρχει πάντα η πιθανότητα ΟΛΟΣΧΕΡΗΣ ΑΧΡΗΣΤΕΥΣΗΣ ΤΗΣ ΣΥΣΚΕΥΗΣ ΣΑΣ. Αυτό συμβαίνει σπάνια, όμως υπάρχει ακόμα η πιθανότητα γι΄αυτό βεβαιωθείτε ότι ακολουθείτε πιστά ΟΛΕΣ τις οδηγίες ΑΚΡΙΒΩΣ.**
-+ Εάν έχετε πραγματοποιήσει hack στο 3DS σας προτού δημιουργήσετε μια EmuNAND εγκατάσταση και θα θέλατε να μετακινήσετε όλα τα περιεχόμενα από την προηγούμενη EmuNAND στη καινούργια σας SysNAND CFW, θα πρέπει να ακολουθήσετε όλες τις οδηγίες και να επαναφέρετε την ήδη υπάρχων σας EmuNAND όταν σας ζητηθεί, μόλις φτάσετε στην [Εγκατάσταση arm9loaderhax](installing-arm9loaderhax).
-+ Ο οδηγός αυτός θα λειτουργήσει στο New 3DS, Old 3DS και 2DS σε όλες τις περιοχές με firmware από 11.2.0 και κάτω *(εκτός CHN / TWN)*.
-+ Εάν όλα πάνε σύμφωνα με το σχέδιο, δεν θα χάσετε τα δεδομένα σας και θα καταλήξετε με όλα όσα ξεκινήσατε (παιχνίδια, NNID, saves, κλπ. θα διατηρηθούν).
-+ **Να έχετε την συσκευή σας συνεχώς στη φόρτιση καθ' όλη τη διάρκεια της διαδικασίας αυτής προς αποφυγή απώλειας δεδομένων και μιας απροσδόκητης απενεργοποίησης της συσκευής!**
-+ Η κάρτα SD θα πρέπει να είναι [MBR, όχι GPT](http://www.howtogeek.com/245610/) (η κάρτα SD που περιλαμβάνεται στη συσκευή είναι MBR από προεπιλογή).
-+ Εάν χρειαστεί να διαμορφώσετε μια καινούργια κάρτα SD, μπορείτε να χρησιμοποιήσετε το [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) και να ορίσετε το Μέγεθος Μονάδας Εκχώρησης στα 32K.
-+ Το 2DS είναι ουσιαστικά το ίδιο με το Old 3DS όσον αφορά το λογισμικό και οποιαδήποτε βήματα αναφέρονται στο "Old 3DS" εφαρμόζονται και στο 2DS.
++ **Before beginning the guide, you must know the risks of 3DS hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
++ If you have already hacked your 3DS before to get an EmuNAND setup, and would like to move the contents of your previous EmuNAND to your new SysNAND CFW, you should follow all instructions and restore your existing EmuNAND when prompted once you reach [Installing arm9loaderhax](installing-arm9loaderhax).
++ This guide will work on New 3DS, Old 3DS, and 2DS in all regions on firmware 11.2.0 or below *(except CHN / TWN)*.
++ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
++ **Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!**
++ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/) (the SD card that comes with your device will be MBR by default).
++ If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ The 2DS is essentially identical to the Old 3DS in terms of software, and that any steps which say "Old 3DS" also apply to 2DS.

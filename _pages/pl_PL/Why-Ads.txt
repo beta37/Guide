@@ -1,17 +1,17 @@
 ---
-title: "Dlaczego reklamy?" #
-lang: pl
-permalink: /pl_PL/why-ads.html
+title: "Why Ads?" #
+lang: en
+permalink: /why-ads.html
 layout: single-no-ads
 ---
 
-Niniejsza instrukcja jest kulminacją setek godzin ciągłej pracy.
+This project is the culmination of hundreds upon hundreds of hours of constant work.
 
-Utrzymuję ją za darmo i upewniam się, że jest zawsze na bieżąco. Ze względu na włożony przeze mnie wysiłek sądzę, że mam prawo otrzymywania skromnego dochodu za swoją pracę (nie otrzymuję niemal żadnych pieniężnych donacji).
+I maintain this guide, for free, and ensure it is always up to date. Because of this effort, I feel that it is fair for me to attempt to gain a meager income from my work (I receive next to no donations anymore).
 
-Korzystanie z tej strony nic cię nie kosztuje a reklamy które są wyświetlane nie są natarczywe. Jeśli nadal ci one przeszkadzają, możesz je zablokować.
+This site costs you nothing to use, and all that I display are non-intrusive ads. If you still have a problem with this, feel free to block these ads.
 
-Jeśli zdecydujesz się zablokować reklamy, chciałbym przypomnieć o stronach [Datki](donations), ale to także jest opcjonalne.
+If you do block ads, I would like to also remind you of the [Donations](donations) page, but once again that is optional too.
 
-Dzięki, <br>
+Thanks,<br>
 Plailect

@@ -1,33 +1,32 @@
 ---
 title: "Cart Update" #
-lang: nl
-permalink: /nl_NL/cart-update.html
+lang: en
+permalink: /cart-update.html
 ---
 
-Alle spel cartridges bevatten een kopie van de benodigden systeem versie om dat spel te spelen, hiermee kan iedereen die op een lagere firmwareversie dan het spel, een spel cartridge gebruiken om te updaten naar die firmwareversie (zelfs zonder internet connectie).
+All game carts contain a copy of the required system version to play it, allowing anyone on a lower version to use the cartridge to update to that version (even without an internet connection).
 {: .notice--info}
 
-Cart Updates zullen alleen systeem functies updaten zoals: Systeem Instellingen, Home Menu, etc. Cart Updates zullen geen update leveren voor Nintendo 3DS Sound en netwerk functies zoals de Gegevensoverdracht, de Internet Browser, StreetPass Mii Plaza of de eShop.
+Cart Updates will only deliver updates to core features, such as the System Settings, Home Menu, etc. Cart Updates will not deliver updates to Nintendo 3DS Sound and Network features, such as System Transfer, Internet Browser, StreetPass Mii Plaza or eShop.
 {: .notice--info}
 
-Dit betekent dat een cart update vanaf een versie <9.0.0 zorgt dat [Soundhax](homebrew-launcher-(soundhax)) niet meer zal werken! Je zal een [alternatieve methode](homebrew-launcher-(alternatives)) nodig hebben om de homebrew launcher te openen!
+This means that a cart update from a version <9.0.0 will break [Soundhax](homebrew-launcher-(soundhax))! You will need an [alternate method](homebrew-launcher-(alternatives)) of entering the Homebrew Launcher!
 {: .notice--warning}
 
-
-Dit betekent ook dat een cart-update NIET een browser kan installeren als je er nog geen hebt. Dit zal **alleen** de werkelijke systeemversie updaten * (bijvoorbeeld, 2.1.0-0-> 6.0.0-0)*. Het laatste nummer *(de -0)* zal **niet** veranderen.
+This also means that a cart update will NOT install a browser if you do not already have one. This will **only** update the actual system version *(for example, 2.1.0-0 -> 6.0.0-0)*. The last number *(the -0)* will **not** change.
 {: .notice--warning}
 
-**Updaten met een game cart die de versie 9.9.0 of hoger bevat, zak je browser verwijderen!**
+**Updating with a game cart containing the version 9.9.0 or above will remove your browser!**
 {: .notice--danger}
 
-#### Benodigdheden
+#### What you need
 
-* Een spel dat [de versie bevat] (http://www.3dsdb.com/) in de gespecificeerde grafiek
+* A game cart that [contains the version](http://www.3dsdb.com/) specified in the chart
 
-#### Instructies
+#### Instructions
 
-1. Boot uw 3DS in 'recovery mode' door L + R + A + UP in te drukken terwijl hij opstart
-2. De update weigeren en opnieuw opstarten
-3. Stop het stel in het systeem
-4. Probeer het spel te starten
-5. Bijwerken wanneer daarom wordt gevraagd
+1. Boot your device into recovery mode by holding L+R+A+UP while powering on
+1. Decline the update and reboot
+1. Put the game in the system
+1. Attempt to launch the game
+1. Update when prompted

@@ -1,33 +1,32 @@
 ---
-title: "Aggiornamento con scheda di gioco" #
-lang: it
-permalink: /it_IT/cart-update.html
+title: "Cart Update" #
+lang: en
+permalink: /cart-update.html
 ---
 
-Tutte le schede di gioco includono al loro interno una copia della versione di sistema richiesta per il suo funzionamento, permettendo a chiunque si trovi ad una vecchia versione di sistema di usare la scheda di gioco per aggiornare a quella versione (anche senza una connessione ad internet).
+All game carts contain a copy of the required system version to play it, allowing anyone on a lower version to use the cartridge to update to that version (even without an internet connection).
 {: .notice--info}
 
-Tramite scheda di gioco vengono aggiornate solamente le applicazioni principali del sistema, come le Impostazioni della console, il menu HOME, ecc. Non vengono invece aggiornate le funzionalità come Sound Nintendo 3DS o le funzionalità che necessitano di Internet, come ad esempio il Trasferimento dati, il Browser Internet, la Piazza Mii StreetPass o l'eShop.
+Cart Updates will only deliver updates to core features, such as the System Settings, Home Menu, etc. Cart Updates will not deliver updates to Nintendo 3DS Sound and Network features, such as System Transfer, Internet Browser, StreetPass Mii Plaza or eShop.
 {: .notice--info}
 
-Questo significa che un aggiornamento tramite scheda di gioco ad una versione di sistema inferiore alla 9.0.0 renderà inutilizzabile [Soundhax](homebrew-launcher-(soundhax))! Dovrai utilizzare un [metodo alternativo](homebrew-launcher-(alternatives)) per avviare l'Homebrew Launcher!
+This means that a cart update from a version <9.0.0 will break [Soundhax](homebrew-launcher-(soundhax))! You will need an [alternate method](homebrew-launcher-(alternatives)) of entering the Homebrew Launcher!
 {: .notice--warning}
 
-
-Ciò significa anche che un aggiornamento con scheda di gioco NON installerà un browser se non ne hai già uno. Aggiornerà **solamente** la versione di sistema *(ad esempio, 2.1.0-0 -> 6.0.0-0)*. L'ultimo numero *(lo -0)* *non* cambierà.
+This also means that a cart update will NOT install a browser if you do not already have one. This will **only** update the actual system version *(for example, 2.1.0-0 -> 6.0.0-0)*. The last number *(the -0)* will **not** change.
 {: .notice--warning}
 
-**Aggiornare con una scheda di gioco contenente la versione di sistema 9.9.0 o maggiore rimuoverà il tuo browser!**
+**Updating with a game cart containing the version 9.9.0 or above will remove your browser!**
 {: .notice--danger}
 
-#### Cosa serve
+#### What you need
 
-* Una scheda di gioco [contenente la versione di sistema](http://www.3dsdb.com/) indicata nella tabella
+* A game cart that [contains the version](http://www.3dsdb.com/) specified in the chart
 
-#### Istruzioni
+#### Instructions
 
-1. Avvia il 3DS in modalità di ripristino tenendo premuto (L)+(R)+(A)+(Su) durante l'accensione
-2. Rifiuta l'aggiornamento e riavvia la console
-3. Inserisci la scheda di gioco nella console
-4. Prova ad avviare il gioco
-5. Aggiorna quando richiesto
+1. Boot your device into recovery mode by holding L+R+A+UP while powering on
+1. Decline the update and reboot
+1. Put the game in the system
+1. Attempt to launch the game
+1. Update when prompted

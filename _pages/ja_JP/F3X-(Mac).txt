@@ -1,38 +1,38 @@
 ---
-title: "F3X（Mac）" #
-lang: ja
-permalink: /ja_JP/f3x-(mac).html
+title: "F3X (Mac)" #
+lang: en
+permalink: /f3x-(mac).html
 ---
 
-このページはどうやればSDカードのエラーをチェックできるか教えてあげます。
+This page will walk you through the process of checking your SD card for errors using F3X.
 {: .notice}
 
-SDカードのサイズとコンピュータのパフォーマンスによって、かかる時間は異なり、数時間もかかる場合があります！
+Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
 {: .notice--info}
 
-このページはMacユーザー向けです。 Macを使用しないユーザーは、[H2testw (windows)](h2testw-(windows))または[F3 (Linux)](f3-(linux))をご覧ください。
+This page is for Mac users only. If you are not on Mac, check out the [H2testw (windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
 {: .notice--info}
 
-#### 必要なもの
+#### What you need
 
-* [F3X](https://github.com/insidegui/F3X/releases/latest)の最新バージョン
+* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
 
-#### 手順
+#### Instructions
 
-1. F3X `.zip`ファイルをを解凍します
-2. パソコンにSDカードを入れます
-3. F3Xアプリを起動します
-4. あなたのSDカードを選択します
-5. 「Start Test」をクリックします
-6. 処理が完了するまで待ちます
+1. Unzip the F3X `.zip` file
+1. Insert your SD card into your computer
+1. Run the F3X app
+1. Select your SD card
+1. Press "Start Test"
+1. Wait until the process is complete.
 
 ___
 
-結果は「Success! Your card is ok!」であれば、SDカードは正常であることを示します。SDカード上の`.h2w`ファイルを全て削除できます。
+If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on your SD card
 {: .notice--success}
 
-結果はそうでなければ、SDカードは壊れた恐れがありますので、新しいSDカードに切り替えることをご検討ください！
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 {: .notice--danger}
 
-[はじめる](get-started)に戻る
+Return to [Get Started](get-started)
 {: .notice--primary}

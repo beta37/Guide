@@ -1,16 +1,16 @@
 ---
-title: "致谢" #
-lang: zh_CN
-permalink: /zh_CN/credits.html
+title: "Credits" #
+lang: en
+permalink: /credits.html
 ---
 
-**特别感谢大家在[#Cakey Freenode](http://webchat.freenode.net/?channels=%23Cakey)你们都是非常好的人！**
+**Special thanks to all of [#Cakey on Freenode](http://webchat.freenode.net/?channels=%23Cakey) for being awesome!**
 {: .notice--primary}
 
-**特别感谢所有的[翻译](https://translate.3ds.guide/)你们都是真棒的人！**
+**Special thanks to all of [the translators](https://translate.3ds.guide/) for being awesome!**
 {: .notice--primary}
 
-如果你的名字不在这个表格，请联系我，我会加上你的名字。
+If I forgot you here, contact me and I'll add your name.
 {: .notice}
 
 + AHP_Person

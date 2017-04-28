@@ -1,22 +1,25 @@
 ---
-title: "Begin" #
-lang: nl
-permalink: /nl_NL/get-started.html
+title: "Get Started" #
+lang: en
+permalink: /get-started.html
 ---
 
-De kleuren van de apparaten in de afbeeldingen kunnen verschillen, maar kijk goed naar waar de knoppen zitten en naar de kenmerken van elk apparaat om er zeker van te zijn dat je de juiste hebt gekozen.
+The colors of the devices in the image may vary, but note the button placement and features of each device carefully to ensure you select the correct one.
 {: .notice}
 
-Klik op de foto van jouw apparaat om naar de juiste pagina te gaan.
+Click the image of your device to take you to the appropriate page.
 {: .notice--primary}
 
-Verschillende modellen, versies en regio's vereisen verschillende stappen om het eindpunt van arm9loaderhax Custom Firmware te bereiken. Op deze pagina zal je vinden waar je moet starten voor jouw apparaat.
+Different device models, versions, and regions will require different steps to achieve the end goal of arm9loaderhax Custom Firmware. This page will help you find where to start for your device.
 {: .notice--info}
 
-Als je je 3DS al een keer hebt gehackt en je een op een EmuNAND gebaseerde CFW setup hebt, volg dan gewoon alle instructies terwijl je nog op SysNAND bent. Je data zal overgedragen worden van de EmuNAND naar je nieuwe A9LH installatie aan het einde.
+If you have already hacked your 3DS before and have an EmuNAND based CFW setup, just follow all instructions while on SysNAND. Your data will be transfered from EmuNAND to your new A9LH install at the end.
 {: .notice--info}
 
-Voordat je begint is het handig om je SD-kaart te controleren op fouten met behulp van [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), of [F3X (Mac)](f3x-(mac))!
+**You will need ~1.79GB of free space on your SD card if you are using an Old 3DS or 2DS, or ~2.10GB of free space on your SD card if you are using a New 3DS.**
+{: .notice--info}
+
+Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
 | New 3DS | Old 3DS or 2DS |

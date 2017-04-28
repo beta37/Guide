@@ -1,38 +1,38 @@
 ---
 title: "F3X (Mac)" #
-lang: fr
-permalink: /fr_FR/f3x-(mac).html
+lang: en
+permalink: /f3x-(mac).html
 ---
 
-Cette page vous guidera à travers le processus de vérification de votre carte SD en utilisant F3X.
+This page will walk you through the process of checking your SD card for errors using F3X.
 {: .notice}
 
-Selon la taille de votre carte SD et la vitesse de votre ordinateur, ce processus peut prendre jusqu'à plusieurs heures !
+Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
 {: .notice--info}
 
-Cette page est pour les utilisateurs de Mac uniquement. Si vous n’êtes pas sur Mac, consultez [H2testw (windows)](h2testw-(windows)) ou [F3 (Linux)](f3-(linux)).
+This page is for Mac users only. If you are not on Mac, check out the [H2testw (windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
 {: .notice--info}
 
-#### Ce dont vous aurez besoin
+#### What you need
 
-* La dernière version de [F3X](https://github.com/insidegui/F3X/releases/latest)
+* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
 
 #### Instructions
 
-1. Décompressez le fichier `.zip` de F3X
-2. Insérez votre carte SD dans votre ordinateur
-3. Lancez l'application F3X
-4. Sélectionnez votre carte SD
-5. Cliquez sur "Start Test"
-6. Attendez que le processus soit terminé.
+1. Unzip the F3X `.zip` file
+1. Insert your SD card into your computer
+1. Run the F3X app
+1. Select your SD card
+1. Press "Start Test"
+1. Wait until the process is complete.
 
 ___
 
-Si le test affiche le résultat `Success! Your card is ok!`votre carte SD est bonne et vous pouvez supprimer tous les fichiers `.h2w` sur la carte SD
+If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on your SD card
 {: .notice--success}
 
-Si le test montre d'autres résultats, votre carte SD peut être corrompue ou endommagée et vous devrez peut-être la remplacer !
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 {: .notice--danger}
 
-Retournez vers [Bien démarrer](get-started)
+Return to [Get Started](get-started)
 {: .notice--primary}

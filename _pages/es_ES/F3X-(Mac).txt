@@ -1,38 +1,38 @@
 ---
 title: "F3X (Mac)" #
-lang: es
-permalink: /es_ES/f3x-(mac).html
+lang: en
+permalink: /f3x-(mac).html
 ---
 
-Esta página te guiará a través del proceso de comprobación de errores de tu tarjeta SD con F3X.
+This page will walk you through the process of checking your SD card for errors using F3X.
 {: .notice}
 
-Dependiendo del tamaño tu tarjeta SD y la velocidad de tu computadora, ¡este proceso puede tardar varias horas!
+Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
 {: .notice--info}
 
-Esta página es sólo para usuarios de Mac. Si no estás en Mac, revisa las páginas [H2testw (windows)](h2testw-(windows)) o [F3 (Linux)](f3-(linux)).
+This page is for Mac users only. If you are not on Mac, check out the [H2testw (windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
 {: .notice--info}
 
-#### Qué necesitas
+#### What you need
 
-* La última versión de [F3X](https://github.com/insidegui/F3X/releases/latest)
+* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
 
-#### Instrucciones
+#### Instructions
 
-1. Descomprime el archivo F3X `.zip`
-2. Inserta tu tarjeta SD en la computadora
-3. Ejecuta la aplicación F3X
-4. Selecciona tu tarjeta SD
-5. Haz clic en "Start Test"
-6. Espera hasta que se complete el proceso.
+1. Unzip the F3X `.zip` file
+1. Insert your SD card into your computer
+1. Run the F3X app
+1. Select your SD card
+1. Press "Start Test"
+1. Wait until the process is complete.
 
 ___
 
-Si la comprobación muestra el resultado `Success! Your card is ok!` tu tarjeta SD está bien y puedes borrar todos los archivos `.h2w` de tu tarjeta SD
+If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on your SD card
 {: .notice--success}
 
-Si la comprobación muestra otro tipo de resultado, ¡tu tarjeta SD puede estar corrupta o dañada y tendrás que reemplazarla!
+If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
 {: .notice--danger}
 
-Vuelve a [Empezar](get-started)
+Return to [Get Started](get-started)
 {: .notice--primary}

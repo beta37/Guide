@@ -1,43 +1,43 @@
 ---
-title: "Begin (New 3DS)" #
-lang: nl
-permalink: /nl_NL/get-started-(new-3ds).html
+title: "Get Started (New 3DS)" #
+lang: en
+permalink: /get-started-(new-3ds).html
 ---
 
-Kies de juiste pagina die bij jouw versie hoort uit onderstaande tabel.
+Select the appropriate page for your version from the chart below.
 {: .notice--primary}
 
 {::comment}
 {% capture notice-1 %}
-De laatste twee kolommen van de tabel verwijzen naar het laatste nummer van je firmwareversie (dit nummer geeft aan welke browserversie op je systeem geïnstalleerd is). Als de versie -0 is, dan heb je geen browser, terwijl elk nummer boven -0 aangeeft dat een browser is geïnstalleerd.
+The last two columns of the chart refer to the last number of your version (which corresponds to the browser version installed to the system). If the version is -0 then you do not have a browser, while any number above -0 indicates a browser is installed.
 
-De "van" en "tot" velden zijn inclusief. Dat betekent dat, bijvoorbeeld, de "van 9.0.0 tot 9.2.0" rij ook 9.0.0, 9.1.0 en 9.2.0 omvat.
+The "from" and "to" fields are inclusive. This means that, for example, the "from 9.0.0 to 9.2.0" row includes 9.0.0, 9.1.0, and 9.2.0.
 
-In het geval van "5.0.0-0U" bijvoorbeeld, zou je de "Geen Browser" kolom volgen en de 5.0.0 tot 5.1.0 rij omdat het systeem op die systeem versie zit in dat gebied en omdat er geen browser is geïnstalleerd.
+In the case of "5.0.0-0U" for example, you would follow the "No Browser" column and 5.0.0 to 5.1.0 row because the system is on the a system version in that range and has no browser installed.
 {% endcapture %}
 
-<div class="notice--info">{ notice-1 | markdownify }</div>
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
 {:/comment}
 
 {::comment}
-Voor alle versies kan je ook een [Cart Update](cart-update) uitvoeren tot een hogere versie in dezelfde kolom om de instructies daarvan uit te voeren, maar je hebt een [alternatieve methode](homebrew-launcher-(alternatives)) nodig om de homebrew launcher te openen aangezien Soundhax niet meer zal werken.
+For all versions you can also [Cart Update](cart-update) to a higher version in the same column to follow its instructions, but you will need an [alternate method](homebrew-launcher-(alternatives)) of entering the Homebrew Launcher as Soundhax will not work.
 {: .notice--warning}
 {:/comment}
 
 {::comment}
-Als je hebt geupdatet met een game cart die de versie 9.9.0 of hoger bevat *(wat betekent dat je een versie op 9.90 hebt of hoger, maar dat je browser op -25 of lager is, zoals 10.2.0-24)*, dan is je browser verwijderd en moet je de "Geen Browser" kolom gebruiken.
+If you updated with a game cart containing the version 9.9.0 or above *(meaning that you have a version on 9.9.0 or above, but your browser is on -25 or lower, such as 10.2.0-24)*, your browser was removed and you will need to use the "No Browser" column.
 {: .notice--warning}
 {:/comment}
 
-De versie van je apparaat kan je vinden rechtsonder op het bovenste scherm in de Systeem Instellingen.
+Your device version can be found at the bottom right of the top screen of the System Settings.
 {: .notice--success}
 
 <table>
   <thead>
     <tr>
-      <th style="text-align: center">Van</th>
-      <th style="text-align: center">Tot</th>
-      <th style="text-align: center"><!-- Geen Browser --></th>
+      <th style="text-align: center">From</th>
+      <th style="text-align: center">To</th>
+      <th style="text-align: center"><!-- No Browser --></th>
       <!-- <th style="text-align: center">Browser</th> -->
     </tr>
   </thead>
@@ -45,7 +45,7 @@ De versie van je apparaat kan je vinden rechtsonder op het bovenste scherm in de
     <tr>
       <td style="text-align: center">8.1.0</td>
       <td style="text-align: center">8.1.0</td>
-      <td style="text-align: center"><a href="ntr-and-cubic-ninja">NTR en Cubic Ninja</a></td>
+      <td style="text-align: center"><a href="ntr-and-cubic-ninja">NTR and Cubic Ninja</a></td>
     </tr>
     <tr>
       <td style="text-align: center">9.0.0</td>
